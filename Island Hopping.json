@@ -12,7 +12,7 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "portrait",
-    "packageName": "com.example.gamename",
+    "packageName": "com.gm637.islandhopping",
     "pixelsRounding": true,
     "projectUuid": "3380920b-8916-49d6-8863-306d7836cd12",
     "scaleMode": "nearest",
@@ -22,7 +22,7 @@
     "version": "1.0.0",
     "name": "Island Hopping",
     "description": "",
-    "author": "",
+    "author": "GM637",
     "windowWidth": 640,
     "windowHeight": 1080,
     "latestCompilationDirectory": "",
@@ -709,7 +709,43 @@
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Data",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "Day",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Inventory",
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -731,7 +767,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.3,
         "snap": true,
-        "zoomFactor": 0.49508400737488995,
+        "zoomFactor": 0.929687500000003,
         "windowMask": false
       },
       "objectsGroups": [
@@ -910,13 +946,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 80,
+          "height": 112,
           "layer": "UI",
           "name": "RollButton",
           "persistentUuid": "a43c9c01-bf64-48dd-8ec8-952996b904d9",
-          "width": 80,
-          "x": 288,
-          "y": 528,
+          "width": 112,
+          "x": 272,
+          "y": 512,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -1077,6 +1113,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "Day",
+          "persistentUuid": "e2816354-b0b2-4015-b32d-c5ca98aa18bf",
+          "width": 0,
+          "x": 250,
+          "y": 16,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1153,6 +1204,7 @@
               "Toggle": false
             },
             {
+              "maxSpeed": 60,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 600,
@@ -1162,7 +1214,6 @@
               "customIsometryAngle": 30,
               "deceleration": 1200,
               "ignoreDefaultControls": false,
-              "maxSpeed": 80,
               "movementAngleOffset": 0,
               "rotateObject": false,
               "viewpoint": "TopDown"
@@ -1703,6 +1754,175 @@
                 }
               ]
             },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 999999,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Prop\\Prop1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 24,
+                        "y": 57
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 24,
+                        "y": 57
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 48
+                          },
+                          {
+                            "x": 32,
+                            "y": 48
+                          },
+                          {
+                            "x": 32,
+                            "y": 64
+                          },
+                          {
+                            "x": 16,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Prop\\Prop2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 24,
+                        "y": 57
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 24,
+                        "y": 57
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 48
+                          },
+                          {
+                            "x": 32,
+                            "y": 48
+                          },
+                          {
+                            "x": 32,
+                            "y": 64
+                          },
+                          {
+                            "x": 16,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Prop\\Prop3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 24,
+                        "y": 57
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 24,
+                        "y": 57
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 48
+                          },
+                          {
+                            "x": 32,
+                            "y": 48
+                          },
+                          {
+                            "x": 32,
+                            "y": 64
+                          },
+                          {
+                            "x": 16,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Prop\\Prop4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 24,
+                        "y": 57
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 24,
+                        "y": 57
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 48
+                          },
+                          {
+                            "x": 32,
+                            "y": 48
+                          },
+                          {
+                            "x": 32,
+                            "y": 64
+                          },
+                          {
+                            "x": 16,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "ShadowProp",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
             {
               "name": "",
               "useMultipleDirections": false,
@@ -3174,7 +3394,7 @@
           "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 50,
           "name": "Hits",
-          "particleAlpha1": 181,
+          "particleAlpha1": 235,
           "particleAlpha2": 0,
           "particleAlphaRandomness1": 0,
           "particleAlphaRandomness2": 0,
@@ -3473,10 +3693,40 @@
               "ty": 1
             }
           ],
-          "string": "Energy",
+          "string": "Energy 12am\n   - 999\n   - 999\n   - 999",
           "font": "Assets\\8-bit Arcade In.ttf",
           "textAlignment": "left",
-          "characterSize": 32,
+          "characterSize": 36,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Day",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "TextUpscaler",
+              "type": "UpscaledText::TextUpscaler",
+              "Scale": 4,
+              "tx": 1,
+              "ty": 1
+            }
+          ],
+          "string": "DAY 12-\n12 PM",
+          "font": "Assets\\8-bit Arcade In.ttf",
+          "textAlignment": "right",
+          "characterSize": 56,
           "color": {
             "b": 255,
             "g": 255,
@@ -3997,6 +4247,16 @@
                         "=",
                         "RandomFloatInRange(0.07,0.01)"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "TIME",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 },
@@ -4022,9 +4282,131 @@
                       "parameters": [
                         "TilesID"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "HighPoint",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "HighPointID",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::Drawer::ClearShapes"
+                      },
+                      "parameters": [
+                        "TestTerrain"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Biome",
+                        "=",
+                        "RandomInRange(0,3)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "PerlinZoom",
+                        "=",
+                        "RandomFloatInRange(0.07,0.01)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "TIME",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Day",
+                        "+",
+                        "1"
+                      ]
                     }
                   ],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+                          },
+                          "parameters": [
+                            "Hunger",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                          },
+                          "parameters": [
+                            "Hunger",
+                            "=",
+                            "50",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+                          },
+                          "parameters": [
+                            "Thirst",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                          },
+                          "parameters": [
+                            "Thirst",
+                            "=",
+                            "50",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "folded": true,
                       "type": "BuiltinCommonInstructions::Repeat",
@@ -4366,6 +4748,31 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AjoutObjConcern"
+                          },
+                          "parameters": [
+                            "",
+                            "ShadowProp"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "ShadowProp",
+                            ""
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -4408,54 +4815,6 @@
                         "=",
                         "0"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "HighPoint",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "HighPointID",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PrimitiveDrawing::Drawer::ClearShapes"
-                      },
-                      "parameters": [
-                        "TestTerrain"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "Biome",
-                        "=",
-                        "RandomInRange(0,3)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "PerlinZoom",
-                        "=",
-                        "RandomFloatInRange(0.07,0.01)"
-                      ]
                     }
                   ]
                 }
@@ -4469,6 +4828,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Terrain",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4494,7 +4854,7 @@
                   "parameters": [
                     "TerrainRenDist",
                     "=",
-                    "8"
+                    "12"
                   ]
                 },
                 {
@@ -4552,52 +4912,6 @@
                         "Variable(Biome)"
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Debug",
-                    "=",
-                    "ToString(mod(round(Player.X()/16),Variable(SIZE)) + round((Player.Y()/16)*Variable(SIZE)))"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Debug",
-                    "+",
-                    "NewLine() + ToString(mod(round(Player.X()/16),Variable(SIZE)) ) + \" - \" + ToString(mod(round(Player.Y()/16),Variable(SIZE)) )"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TiledSpriteObject::XOffset"
-                  },
-                  "parameters": [
-                    "TileTemp",
-                    "+",
-                    "0.1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TiledSpriteObject::YOffset"
-                  },
-                  "parameters": [
-                    "TileTemp",
-                    "+",
-                    "0.02"
                   ]
                 }
               ]
@@ -4868,6 +5182,18 @@
                             "Tile.CenterY()",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "ShadowProp",
+                            "Tile.CenterX()",
+                            "Tile.CenterY()",
+                            ""
+                          ]
                         }
                       ],
                       "events": [
@@ -4967,6 +5293,102 @@
                   ]
                 }
               ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Prop",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "ShadowProp",
+                        "Prop.X()",
+                        "Prop.Y()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "ShadowProp",
+                        "Prop",
+                        "0",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "ShadowProp",
+                        "=",
+                        "Prop.Sprite()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "ShadowProp",
+                        "=",
+                        "(Variable(TIME)+1)*90 + 35 + Prop.Angle()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "ShadowProp",
+                        "=",
+                        "Prop.ZOrder()-1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "ShadowProp",
+                        "\"0;0;0\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "ShadowProp",
+                        "=",
+                        "min(Prop.Opacity(),1 ) * 75"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "ShadowProp",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -4981,37 +5403,6 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ZoomCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "lerp(CameraZoom(),5,0.2)",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ClampCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "0",
-                    "0",
-                    "1280",
-                    "1280",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -5128,6 +5519,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -5144,7 +5536,6 @@
               "actions": [],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5182,6 +5573,16 @@
                             "Player",
                             "TopDownMovement"
                           ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"Dash\""
+                          ]
                         }
                       ],
                       "actions": [
@@ -5205,7 +5606,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5300,7 +5700,7 @@
                       "parameters": [
                         "Thirst",
                         "-",
-                        "-0.05",
+                        "-0.1",
                         ""
                       ]
                     }
@@ -5338,7 +5738,7 @@
                             "Player",
                             "TopDownMovement",
                             "=",
-                            "60"
+                            "40"
                           ]
                         }
                       ],
@@ -5366,7 +5766,7 @@
                                 "Player",
                                 "TopDownMovement",
                                 "=",
-                                "30"
+                                "20"
                               ]
                             },
                             {
@@ -5376,7 +5776,7 @@
                               "parameters": [
                                 "Hunger",
                                 "-",
-                                "0.15",
+                                "0.2",
                                 ""
                               ]
                             },
@@ -5387,12 +5787,145 @@
                               "parameters": [
                                 "Thirst",
                                 "-",
-                                "-0.05",
+                                "-0.1",
                                 ""
                               ]
                             }
                           ]
                         }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Biome",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Sprite"
+                          },
+                          "parameters": [
+                            "Tile",
+                            ">",
+                            "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::IsMoving"
+                          },
+                          "parameters": [
+                            "Player",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::MaxSpeed"
+                          },
+                          "parameters": [
+                            "Player",
+                            "TopDownMovement",
+                            "=",
+                            "40"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                          },
+                          "parameters": [
+                            "Hunger",
+                            "-",
+                            "0.025",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Sprite"
+                              },
+                              "parameters": [
+                                "Tile",
+                                ">",
+                                "6"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::MaxSpeed"
+                              },
+                              "parameters": [
+                                "Player",
+                                "TopDownMovement",
+                                "=",
+                                "25"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Biome",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::IsMoving"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "Thirst",
+                        "-",
+                        "0.05",
+                        ""
                       ]
                     }
                   ]
@@ -5497,7 +6030,7 @@
                     "Player",
                     "TopDownMovement",
                     "=",
-                    "80"
+                    "60"
                   ]
                 },
                 {
@@ -5618,6 +6151,7 @@
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5641,31 +6175,25 @@
                         ">=",
                         "75"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "Prop",
+                        "!=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityX"
-                      },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "*",
-                        "-1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityY"
-                      },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "*",
-                        "-1"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
@@ -5689,7 +6217,7 @@
                       "parameters": [
                         "Energy",
                         "+",
-                        "25",
+                        "15",
                         ""
                       ]
                     },
@@ -5736,6 +6264,61 @@
                         "25",
                         "RandomFloatInRange(0.9,1.1)"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Prop",
+                        "-90",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Player"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "yes"
+                      ]
                     }
                   ],
                   "events": [
@@ -5760,388 +6343,790 @@
                           },
                           "parameters": [
                             "Prop",
-                            "+",
-                            "1"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "folded": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "Prop",
-                    "<",
-                    "75"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "Prop",
-                    "!=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "Prop",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "Poof",
-                    "",
-                    "25",
-                    "RandomFloatInRange(0.9,1.1)"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Repeat",
-                  "repeatExpression": "RandomInRange(1,4)",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Item",
-                        "Prop.X()",
-                        "Prop.Y() - 32",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Item",
-                        "Vy",
-                        "=",
-                        "RandomFloatInRange(0.4,1.5)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Item",
-                        "Vx",
-                        "=",
-                        "RandomFloatInRange(-0.7,0.7)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Item",
-                        "Y",
-                        "=",
-                        "Prop.Y() + RandomInRange(-32,0)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "LinkedObjects::LinkObjects"
-                      },
-                      "parameters": [
-                        "",
-                        "Prop",
-                        "Item"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Sprite"
-                          },
-                          "parameters": [
-                            "Prop",
                             "=",
                             "0"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TiledSpriteObject::XOffset"
-                          },
-                          "parameters": [
-                            "Item",
-                            "=",
-                            "RandomInRange(0,3) * 16"
                           ]
                         },
                         {
                           "type": {
-                            "value": "TiledSpriteObject::YOffset"
+                            "value": "PlaySound"
                           },
                           "parameters": [
-                            "Item",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Sprite"
-                          },
-                          "parameters": [
-                            "Prop",
-                            "=",
-                            "1"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TiledSpriteObject::XOffset"
-                          },
-                          "parameters": [
-                            "Item",
-                            "=",
-                            "32"
+                            "",
+                            "Poof",
+                            "",
+                            "25",
+                            "RandomFloatInRange(0.9,1.1)"
                           ]
                         },
                         {
                           "type": {
-                            "value": "TiledSpriteObject::YOffset"
+                            "value": "Create"
                           },
                           "parameters": [
-                            "Item",
+                            "",
+                            "Hits",
+                            "(Player.X() + Prop.X()) / 2",
+                            "(Player.Y() + Prop.Y()) / 2",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAngle"
+                          },
+                          "parameters": [
+                            "Hits",
                             "=",
-                            "0"
+                            "270"
                           ]
                         }
                       ],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::CompareNumbers"
-                              },
-                              "parameters": [
-                                "Random(10)",
-                                "<",
-                                "2"
-                              ]
-                            }
-                          ],
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "RandomInRange(1,2)",
+                          "conditions": [],
                           "actions": [
                             {
                               "type": {
-                                "value": "TiledSpriteObject::XOffset"
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Item",
+                                "Prop.X()",
+                                "Prop.Y() - 32",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
                               },
                               "parameters": [
                                 "Item",
+                                "Vy",
+                                "=",
+                                "RandomFloatInRange(0.4,1.5)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Item",
+                                "Vx",
+                                "=",
+                                "RandomFloatInRange(-0.7,0.7)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Item",
+                                "Y",
+                                "=",
+                                "Prop.Y() + RandomInRange(-32,0)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "LinkedObjects::LinkObjects"
+                              },
+                              "parameters": [
+                                "",
+                                "Prop",
+                                "Item"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Opacity"
+                              },
+                              "parameters": [
+                                "Prop",
                                 "=",
                                 "0"
                               ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Prop",
+                                    "=",
+                                    "0"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::XOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "RandomInRange(0,3) * 16"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::YOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "0"
+                                  ]
+                                }
+                              ]
                             },
                             {
-                              "type": {
-                                "value": "TiledSpriteObject::YOffset"
-                              },
-                              "parameters": [
-                                "Item",
-                                "=",
-                                "16"
+                              "folded": true,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Prop",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::XOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "32"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::YOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                                  },
+                                  "parameters": [
+                                    "Hunger",
+                                    "-",
+                                    "3",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "Random(10)",
+                                        "<",
+                                        "2"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::XOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "0"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::YOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "16"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "folded": true,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Prop",
+                                    "=",
+                                    "2"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::XOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::YOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "16"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                                  },
+                                  "parameters": [
+                                    "Hunger",
+                                    "-",
+                                    "5",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "Random(10)",
+                                        "<",
+                                        "3"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::XOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "48"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::YOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "16"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "Random(10)",
+                                        "<",
+                                        "1"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::XOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "32"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::YOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "16"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Prop",
+                                    "=",
+                                    "3"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::XOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "16"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::YOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "16"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                                  },
+                                  "parameters": [
+                                    "Hunger",
+                                    "-",
+                                    "7",
+                                    ""
+                                  ]
+                                }
                               ]
                             }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Sprite"
-                          },
-                          "parameters": [
-                            "Prop",
-                            "=",
-                            "2"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TiledSpriteObject::XOffset"
-                          },
-                          "parameters": [
-                            "Item",
-                            "=",
-                            "0"
                           ]
                         },
                         {
-                          "type": {
-                            "value": "TiledSpriteObject::YOffset"
-                          },
-                          "parameters": [
-                            "Item",
-                            "=",
-                            "16"
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::CompareNumbers"
-                              },
-                              "parameters": [
-                                "Random(10)",
-                                "<",
-                                "3"
-                              ]
-                            }
-                          ],
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "RandomInRange(1,2)",
+                          "conditions": [],
                           "actions": [
                             {
                               "type": {
-                                "value": "TiledSpriteObject::XOffset"
+                                "value": "Create"
                               },
                               "parameters": [
+                                "",
                                 "Item",
-                                "=",
-                                "48"
+                                "Prop.X()",
+                                "Prop.Y() - 32",
+                                ""
                               ]
                             },
                             {
                               "type": {
-                                "value": "TiledSpriteObject::YOffset"
+                                "value": "ModVarObjet"
                               },
                               "parameters": [
                                 "Item",
+                                "Vy",
                                 "=",
-                                "16"
+                                "RandomFloatInRange(0.4,1.5)"
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
+                            },
                             {
                               "type": {
-                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                                "value": "ModVarObjet"
                               },
                               "parameters": [
-                                "Random(10)",
-                                "<",
-                                "1"
+                                "Item",
+                                "Vx",
+                                "=",
+                                "RandomFloatInRange(-0.7,0.7)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Item",
+                                "Y",
+                                "=",
+                                "Prop.Y() + RandomInRange(-32,0)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "LinkedObjects::LinkObjects"
+                              },
+                              "parameters": [
+                                "",
+                                "Prop",
+                                "Item"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Opacity"
+                              },
+                              "parameters": [
+                                "Prop",
+                                "=",
+                                "0"
                               ]
                             }
                           ],
-                          "actions": [
+                          "events": [
                             {
-                              "type": {
-                                "value": "TiledSpriteObject::XOffset"
-                              },
-                              "parameters": [
-                                "Item",
-                                "=",
-                                "32"
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Prop",
+                                    "=",
+                                    "0"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::XOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "RandomInRange(0,3) * 16"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::YOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "0"
+                                  ]
+                                }
                               ]
                             },
                             {
-                              "type": {
-                                "value": "TiledSpriteObject::YOffset"
-                              },
-                              "parameters": [
-                                "Item",
-                                "=",
-                                "16"
+                              "folded": true,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Prop",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::XOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "32"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::YOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                                  },
+                                  "parameters": [
+                                    "Hunger",
+                                    "-",
+                                    "3",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "Random(10)",
+                                        "<",
+                                        "2"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::XOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "0"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::YOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "16"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "folded": true,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Prop",
+                                    "=",
+                                    "2"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::XOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::YOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "16"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                                  },
+                                  "parameters": [
+                                    "Hunger",
+                                    "-",
+                                    "5",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "Random(10)",
+                                        "<",
+                                        "3"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::XOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "48"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::YOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "16"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "Random(10)",
+                                        "<",
+                                        "1"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::XOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "32"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::YOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "16"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Prop",
+                                    "=",
+                                    "3"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::XOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "16"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::YOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "16"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                                  },
+                                  "parameters": [
+                                    "Hunger",
+                                    "-",
+                                    "7",
+                                    ""
+                                  ]
+                                }
                               ]
                             }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Sprite"
-                          },
-                          "parameters": [
-                            "Prop",
-                            "=",
-                            "3"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TiledSpriteObject::XOffset"
-                          },
-                          "parameters": [
-                            "Item",
-                            "=",
-                            "16"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TiledSpriteObject::YOffset"
-                          },
-                          "parameters": [
-                            "Item",
-                            "=",
-                            "16"
                           ]
                         }
                       ]
@@ -6232,6 +7217,7 @@
               ],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -6314,6 +7300,7 @@
                   ],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -6357,7 +7344,7 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "TiledSpriteObject::YOffset"
+                                "value": "TiledSpriteObject::XOffset"
                               },
                               "parameters": [
                                 "Item",
@@ -6374,7 +7361,7 @@
                               "parameters": [
                                 "Energy",
                                 "+",
-                                "25",
+                                "15",
                                 ""
                               ]
                             }
@@ -6385,7 +7372,7 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "TiledSpriteObject::YOffset"
+                                "value": "TiledSpriteObject::XOffset"
                               },
                               "parameters": [
                                 "Item",
@@ -6402,7 +7389,7 @@
                               "parameters": [
                                 "Thirst",
                                 "+",
-                                "15",
+                                "5",
                                 ""
                               ]
                             }
@@ -6413,7 +7400,7 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "TiledSpriteObject::YOffset"
+                                "value": "TiledSpriteObject::XOffset"
                               },
                               "parameters": [
                                 "Item",
@@ -6430,7 +7417,7 @@
                               "parameters": [
                                 "Hunger",
                                 "+",
-                                "35",
+                                "15",
                                 ""
                               ]
                             },
@@ -6441,7 +7428,7 @@
                               "parameters": [
                                 "Thirst",
                                 "+",
-                                "5",
+                                "3",
                                 ""
                               ]
                             }
@@ -6476,6 +7463,133 @@
                                 "",
                                 "25",
                                 "RandomFloatInRange(0.9,1.1)"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "TiledSpriteObject::YOffset"
+                          },
+                          "parameters": [
+                            "Item",
+                            "=",
+                            "16"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::XOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "Data.Inventory[0]",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::XOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "16"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "Data.Inventory[1]",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::XOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "32"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "Data.Inventory[2]",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::XOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "48"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "Data.Inventory[3]",
+                                "+",
+                                "1"
                               ]
                             }
                           ]
@@ -6543,6 +7657,37 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "lerp(CameraZoom(),6,0.2)",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ClampCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "0",
+                    "1280",
+                    "1280",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
             {
               "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
@@ -6634,6 +7779,102 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TiledSpriteObject::XOffset"
+                  },
+                  "parameters": [
+                    "TileTemp",
+                    "+",
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::YOffset"
+                  },
+                  "parameters": [
+                    "TileTemp",
+                    "+",
+                    "0.02"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Day",
+                    "=",
+                    "\"DAY \" + GlobalVariableString(Data.Day)+ \"-\" + NewLine()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Day",
+                    "+",
+                    "ToString(1+mod(6 + round(Variable(TIME)*6),12))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "=",
+                    "\"POS \" + ToString(mod(round(Player.X()/16),Variable(SIZE)) ) + \" \" + ToString(mod(round(Player.Y()/16),Variable(SIZE)) )  "
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "+",
+                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[0]))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "+",
+                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[1]))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "+",
+                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[2]))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "+",
+                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[3]))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
                     "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
                   },
                   "parameters": [
@@ -6687,6 +7928,331 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Time",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "+",
+                    "3/(120*60)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "<",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetLayerAmbientLightColor"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lighting\"",
+                    "ColorConversion::RgbMean(\"42;47;78\", \"249;230;207\", mod(Variable(TIME),1))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "<",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetLayerAmbientLightColor"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lighting\"",
+                    "ColorConversion::RgbMean(\"249;230;207\", \"198;69;36\", mod(Variable(TIME),1))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "<",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    ">",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetLayerAmbientLightColor"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lighting\"",
+                    "ColorConversion::RgbMean(\"198;69;36\", \"42;47;78\", mod(Variable(TIME),1))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "<",
+                    "0.8"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Day",
+                    "+",
+                    "\"am\" + NewLine()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "<",
+                    "0.8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "<",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Day",
+                    "+",
+                    "\"pm\" + NewLine()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "<",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Day",
+                    "+",
+                    "\"am\" + NewLine()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    ">",
+                    "3.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Noise::SetSeed"
+                  },
+                  "parameters": [
+                    "",
+                    "RandomInRange(0,99999)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "ID",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+                      },
+                      "parameters": [
+                        "Thirst",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+                      },
+                      "parameters": [
+                        "Hunger",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Noise::SetSeed"
+                  },
+                  "parameters": [
+                    "",
+                    "RandomInRange(0,99999)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "ID",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -6730,6 +8296,22 @@
           "name": "Map",
           "renderingType": "",
           "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": true,
+          "isLightingLayer": true,
+          "isLocked": false,
+          "name": "Lighting",
+          "renderingType": "",
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
