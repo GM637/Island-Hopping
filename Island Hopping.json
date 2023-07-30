@@ -914,7 +914,7 @@
         "metadata": "",
         "name": "splash.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
       },
@@ -924,9 +924,19 @@
         "metadata": "",
         "name": "swing.mp3",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "Assets/theo-aabel-constellation-128-ytshorts.savetube.me.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\theo-aabel-constellation-128-ytshorts.savetube.me.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1329,7 +1339,7 @@
           "width": 192,
           "x": 320,
           "y": 384,
-          "zOrder": 10,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1344,7 +1354,7 @@
           "width": 0,
           "x": 136,
           "y": 345,
-          "zOrder": 11,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1751,6 +1761,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1854,6 +1865,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1957,6 +1969,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7619,6 +7632,19 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Assets\\theo-aabel-constellation-128-ytshorts.savetube.me.mp3",
+                    "2",
+                    "yes",
+                    "25",
+                    ""
+                  ]
                 }
               ]
             },
@@ -8975,6 +9001,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15348,322 +15375,100 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Action\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Data.Tools.Type",
-                "=",
-                "-1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "ActionButton"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "Opacity"
-              },
-              "parameters": [
-                "ActionButton",
-                "=",
-                "255"
-              ]
-            },
-            {
-              "type": {
-                "value": "Opacity"
-              },
-              "parameters": [
-                "RollButton",
-                "=",
-                "255"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsPressed"
-              },
-              "parameters": [
-                "RollButton",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Opacity"
-              },
-              "parameters": [
-                "RollButton",
-                "=",
-                "175"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Data.Tools.Type",
-                ">",
-                "-1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "ActionButton",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeSprite"
-              },
-              "parameters": [
-                "ActionButton",
-                "=",
-                "GlobalVariable(Data.Tools.Type)"
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Power Tools",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "Sprite"
+                    "value": "DepartScene"
                   },
                   "parameters": [
-                    "ActionButton",
-                    ">",
-                    "0"
+                    ""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "ActionButton",
-                    "=",
-                    "175"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "ActionButton",
-                    "=",
-                    "TimerElapsedTime(\"Action\")/7*255"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsPressed"
-                  },
-                  "parameters": [
-                    "ActionButton",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Sprite"
-                  },
-                  "parameters": [
-                    "ActionButton",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Tile",
-                        "Player.X()",
-                        "Player.Y()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Sprite"
-                      },
-                      "parameters": [
-                        "Tile",
-                        "<=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Tile",
-                        "Player",
-                        "48",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
-                      },
-                      "parameters": [
-                        "Energy",
-                        ">",
-                        "0",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeSprite"
-                      },
-                      "parameters": [
-                        "Tile",
-                        "=",
-                        "8"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                      },
-                      "parameters": [
-                        "Energy",
-                        "-",
-                        "20",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Hits",
-                        "Player.X()",
-                        "Player.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetAngle"
-                      },
-                      "parameters": [
-                        "Hits",
-                        "=",
-                        "270"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsPressed"
-                  },
-                  "parameters": [
-                    "ActionButton",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
+                    "value": "ResetTimer"
                   },
                   "parameters": [
                     "",
-                    "\"Action\"",
-                    ">=",
-                    "7"
+                    "\"Action\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Data.Tools.Type",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ActionButton"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ActionButton",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "RollButton",
+                    "=",
+                    "255"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsPressed"
+                  },
+                  "parameters": [
+                    "RollButton",
+                    "ButtonFSM",
+                    ""
                   ]
                 }
               ],
@@ -15673,15 +15478,50 @@
                     "value": "Opacity"
                   },
                   "parameters": [
-                    "ActionButton",
+                    "RollButton",
                     "=",
                     "175"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Data.Tools.Type",
+                    ">",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ActionButton",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "ActionButton",
+                    "=",
+                    "GlobalVariable(Data.Tools.Type)"
                   ]
                 }
               ],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -15690,49 +15530,71 @@
                       },
                       "parameters": [
                         "ActionButton",
-                        "=",
-                        "1"
+                        ">",
+                        "0"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "ResetTimer"
+                        "value": "Opacity"
                       },
                       "parameters": [
-                        "",
-                        "\"Action\""
+                        "ActionButton",
+                        "=",
+                        "175"
                       ]
                     },
                     {
                       "type": {
-                        "value": "PlaySound"
+                        "value": "Opacity"
                       },
                       "parameters": [
-                        "",
-                        "splash.mp3",
-                        "",
-                        "25",
+                        "ActionButton",
+                        "=",
+                        "TimerElapsedTime(\"Action\")/7*255"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsPressed"
+                      },
+                      "parameters": [
+                        "ActionButton",
+                        "ButtonFSM",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "ActionButton",
+                        "=",
+                        "0"
                       ]
                     }
                   ],
+                  "actions": [],
                   "events": [
                     {
-                      "folded": true,
-                      "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "Tile",
+                      "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "Distance"
+                            "value": "CollisionPoint"
                           },
                           "parameters": [
                             "Tile",
-                            "Player",
-                            "64",
-                            ""
+                            "Player.X()",
+                            "Player.Y()"
                           ]
                         },
                         {
@@ -15741,98 +15603,188 @@
                           },
                           "parameters": [
                             "Tile",
-                            "<",
-                            "2"
+                            "<=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Tile",
+                            "Player",
+                            "48",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+                          },
+                          "parameters": [
+                            "Energy",
+                            ">",
+                            "0",
+                            ""
                           ]
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "Tile",
+                            "=",
+                            "8"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                          },
+                          "parameters": [
+                            "Energy",
+                            "-",
+                            "20",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Hits",
+                            "Player.X()",
+                            "Player.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAngle"
+                          },
+                          "parameters": [
+                            "Hits",
+                            "=",
+                            "270"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsPressed"
+                      },
+                      "parameters": [
+                        "ActionButton",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Action\"",
+                        ">=",
+                        "7"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "ActionButton",
+                        "=",
+                        "175"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Sprite"
+                          },
+                          "parameters": [
+                            "ActionButton",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Action\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "splash.mp3",
+                            "",
+                            "25",
+                            ""
+                          ]
+                        }
+                      ],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Repeat",
-                          "repeatExpression": "RandomInRange(1,2)",
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "Tile",
                           "conditions": [
                             {
                               "type": {
-                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                                "value": "Distance"
                               },
                               "parameters": [
-                                "Random(10)",
-                                "<",
-                                "2"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "Item",
-                                "Tile.CenterX()",
-                                "Tile.CenterY()",
+                                "Tile",
+                                "Player",
+                                "64",
                                 ""
                               ]
                             },
                             {
                               "type": {
-                                "value": "ModVarObjet"
+                                "value": "Sprite"
                               },
                               "parameters": [
-                                "Item",
-                                "Vy",
-                                "=",
-                                "RandomFloatInRange(0.4,1.5)"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Item",
-                                "Vx",
-                                "=",
-                                "RandomFloatInRange(-0.7,0.7)"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Item",
-                                "Y",
-                                "=",
-                                "Tile.CenterY() + 32"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "TiledSpriteObject::XOffset"
-                              },
-                              "parameters": [
-                                "Item",
-                                "=",
-                                "32"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "TiledSpriteObject::YOffset"
-                              },
-                              "parameters": [
-                                "Item",
-                                "=",
-                                "16"
+                                "Tile",
+                                "<",
+                                "2"
                               ]
                             }
                           ],
+                          "actions": [],
                           "events": [
                             {
-                              "type": "BuiltinCommonInstructions::Standard",
+                              "type": "BuiltinCommonInstructions::Repeat",
+                              "repeatExpression": "RandomInRange(1,2)",
                               "conditions": [
                                 {
                                   "type": {
@@ -15846,6 +15798,243 @@
                                 }
                               ],
                               "actions": [
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Item",
+                                    "Tile.CenterX()",
+                                    "Tile.CenterY()",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "Vy",
+                                    "=",
+                                    "RandomFloatInRange(0.4,1.5)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "Vx",
+                                    "=",
+                                    "RandomFloatInRange(-0.7,0.7)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "Y",
+                                    "=",
+                                    "Tile.CenterY() + 32"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::XOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "32"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::YOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "16"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "Random(10)",
+                                        "<",
+                                        "2"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::XOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "48"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::YOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "0"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Sprite"
+                          },
+                          "parameters": [
+                            "ActionButton",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Action\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "swing.mp3",
+                            "",
+                            "25",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "Tile",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Tile",
+                                "Player",
+                                "64",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Sprite"
+                              },
+                              "parameters": [
+                                "Tile",
+                                ">",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Repeat",
+                              "repeatExpression": "RandomInRange(1,2)",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                  },
+                                  "parameters": [
+                                    "Random(10)",
+                                    "<",
+                                    "3"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Item",
+                                    "Tile.CenterX()",
+                                    "Tile.CenterY()",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "Vy",
+                                    "=",
+                                    "RandomFloatInRange(0.4,1.5)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "Vx",
+                                    "=",
+                                    "RandomFloatInRange(-0.7,0.7)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "Y",
+                                    "=",
+                                    "Tile.CenterY() + 32"
+                                  ]
+                                },
                                 {
                                   "type": {
                                     "value": "TiledSpriteObject::XOffset"
@@ -15863,7 +16052,46 @@
                                   "parameters": [
                                     "Item",
                                     "=",
-                                    "0"
+                                    "16"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "Random(10)",
+                                        "<",
+                                        "2"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::XOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "0"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "TiledSpriteObject::YOffset"
+                                      },
+                                      "parameters": [
+                                        "Item",
+                                        "=",
+                                        "0"
+                                      ]
+                                    }
                                   ]
                                 }
                               ]
@@ -15871,253 +16099,60 @@
                           ]
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Sprite"
-                      },
-                      "parameters": [
-                        "ActionButton",
-                        "=",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Action\""
-                      ]
                     },
                     {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "swing.mp3",
-                        "",
-                        "25",
-                        ""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "Tile",
+                      "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
-                        {
-                          "type": {
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Tile",
-                            "Player",
-                            "64",
-                            ""
-                          ]
-                        },
                         {
                           "type": {
                             "value": "Sprite"
                           },
                           "parameters": [
-                            "Tile",
-                            ">",
+                            "ActionButton",
+                            "=",
                             "3"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Repeat",
-                          "repeatExpression": "RandomInRange(1,2)",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::CompareNumbers"
-                              },
-                              "parameters": [
-                                "Random(10)",
-                                "<",
-                                "3"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "Item",
-                                "Tile.CenterX()",
-                                "Tile.CenterY()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Item",
-                                "Vy",
-                                "=",
-                                "RandomFloatInRange(0.4,1.5)"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Item",
-                                "Vx",
-                                "=",
-                                "RandomFloatInRange(-0.7,0.7)"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Item",
-                                "Y",
-                                "=",
-                                "Tile.CenterY() + 32"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "TiledSpriteObject::XOffset"
-                              },
-                              "parameters": [
-                                "Item",
-                                "=",
-                                "48"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "TiledSpriteObject::YOffset"
-                              },
-                              "parameters": [
-                                "Item",
-                                "=",
-                                "16"
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                                  },
-                                  "parameters": [
-                                    "Random(10)",
-                                    "<",
-                                    "2"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "TiledSpriteObject::XOffset"
-                                  },
-                                  "parameters": [
-                                    "Item",
-                                    "=",
-                                    "0"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "TiledSpriteObject::YOffset"
-                                  },
-                                  "parameters": [
-                                    "Item",
-                                    "=",
-                                    "0"
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Sprite"
-                      },
-                      "parameters": [
-                        "ActionButton",
-                        "=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Action\""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "Prop",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Prop",
-                            "Player",
-                            "64",
-                            ""
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "Opacity"
+                            "value": "ResetTimer"
                           },
                           "parameters": [
-                            "Prop",
-                            "=",
-                            "80"
+                            "",
+                            "\"Action\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "Prop",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Prop",
+                                "Player",
+                                "64",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Opacity"
+                              },
+                              "parameters": [
+                                "Prop",
+                                "=",
+                                "80"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -16125,155 +16160,156 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
-              "type": {
-                "value": "SystemInfo::IsPreview"
-              },
-              "parameters": [
-                ""
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SystemInfo::IsPreview"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Num1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Tools.Type",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Num2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Tools.Type",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Num3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Tools.Type",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Num4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Tools.Type",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "r"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Tools.Type",
+                        "=",
+                        "-1"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Num1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Data.Tools.Type",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Num2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Data.Tools.Type",
-                    "=",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Num3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Data.Tools.Type",
-                    "=",
-                    "2"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Num4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Data.Tools.Type",
-                    "=",
-                    "3"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "r"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Data.Tools.Type",
-                    "=",
-                    "-1"
-                  ]
-                }
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "layers": [

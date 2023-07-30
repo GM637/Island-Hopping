@@ -1,0 +1,12 @@
+{
+  "name": "Island Hopping",
+  "short_name": "Island Hopping",
+  "id": "com.gm637.islandhopping",
+  "description": "",
+  "orientation": "portrait",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
