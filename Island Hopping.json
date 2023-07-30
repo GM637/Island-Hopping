@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "MainMenu",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -907,6 +907,26 @@
         "name": "Assets\\Tiles\\WoodTile.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "splash.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "splash.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "swing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "swing.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1167,7 +1187,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.7400933720414802,
+        "zoomFactor": 0.6481481481481483,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1297,6 +1317,37 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 192,
+          "layer": "",
+          "name": "TOOL",
+          "persistentUuid": "e5ff9ff7-4938-4682-9171-fa9e06e5c766",
+          "width": 192,
+          "x": 320,
+          "y": 384,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tool",
+          "persistentUuid": "fc3bcc5a-8792-4227-986d-28e4b6196ae3",
+          "width": 0,
+          "x": 136,
+          "y": 345,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1335,6 +1386,28 @@
           "effects": [],
           "behaviors": [],
           "string": "< Continue >\nDay 10\nScore :\n000",
+          "font": "Assets\\Gamer.ttf",
+          "textAlignment": "center",
+          "characterSize": 96,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Tool",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "<<        >>\n\nPower Tool",
           "font": "Assets\\Gamer.ttf",
           "textAlignment": "center",
           "characterSize": 96,
@@ -1399,6 +1472,175 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "TOOL",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 999999,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Launch round button1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 40,
+                        "y": 40
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 80
+                          },
+                          {
+                            "x": 0,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Launch round button2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 40,
+                        "y": 40
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 80
+                          },
+                          {
+                            "x": 0,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Launch round button3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 40,
+                        "y": 40
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 80
+                          },
+                          {
+                            "x": 0,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Launch round button4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 40,
+                        "y": 40
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 80
+                          },
+                          {
+                            "x": 0,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -1428,6 +1670,16 @@
                 "\"Backward\"",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "TOOL",
+                "=",
+                "125"
               ]
             }
           ]
@@ -1506,6 +1758,212 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
+                "Tool",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "TOOL",
+                "=",
+                "255"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CursorX"
+                  },
+                  "parameters": [
+                    "",
+                    "<",
+                    "Tool.CenterX()",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "TOOL",
+                    "-",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CursorX"
+                  },
+                  "parameters": [
+                    "",
+                    ">",
+                    "Tool.CenterX()",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "TOOL",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TOOL",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "TOOL",
+                "=",
+                "255"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CursorX"
+                  },
+                  "parameters": [
+                    "",
+                    "<",
+                    "Tool.CenterX()",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "TOOL",
+                    "-",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CursorX"
+                  },
+                  "parameters": [
+                    "",
+                    ">",
+                    "Tool.CenterX()",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "TOOL",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
                 "Info",
                 "",
                 "",
@@ -1546,6 +2004,36 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Data.Tools.Type",
+                    "=",
+                    "TOOL.Sprite()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"Player\"",
+                    "\"Data\"",
+                    "GlobalVarToJSON(Data)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"Main\"",
+                    "\"Check\"",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
@@ -1749,7 +2237,7 @@
           "persistentUuid": "54045c43-4118-47ec-9238-a70d40bf486e",
           "width": 0,
           "x": 87,
-          "y": 39,
+          "y": 135,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -1864,6 +2352,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "11fa4205-5b03-4828-8e5f-b280c9e82c1b",
+          "width": 128,
+          "x": 288,
+          "y": 320,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 416,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "00a7da4d-369c-46b8-b0a1-c882335e2c67",
+          "width": 416,
+          "x": 114,
+          "y": 64,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1966,10 +2486,182 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Player\\Player1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Player\\Player2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Player\\Player3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Player\\Player4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Player\\Player5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Camp.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 80,
+                            "y": 2
+                          },
+                          {
+                            "x": 80,
+                            "y": 80
+                          },
+                          {
+                            "x": 0,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2171,6 +2863,16 @@
                 "BGThing",
                 "+",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "NewSprite2",
+                "4",
+                ""
               ]
             }
           ]
@@ -6169,8 +6871,8 @@
               "TouchIsInside": false,
               "MouseIsInside": false,
               "Index": 0,
-              "KeyBind": "t",
-              "KeyBind2": "t",
+              "KeyBind": "x",
+              "KeyBind2": "f",
               "ClickOnlyIfVisible": false
             }
           ],
@@ -7695,6 +8397,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Terrain",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7893,19 +8596,9 @@
                   ],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Sprite"
-                          },
-                          "parameters": [
-                            "Tile",
-                            "!=",
-                            "8"
-                          ]
-                        }
-                      ],
+                      "conditions": [],
                       "actions": [
                         {
                           "type": {
@@ -8282,7 +8975,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9855,6 +10547,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -10102,6 +10795,7 @@
                       ],
                       "events": [
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Repeat",
                           "repeatExpression": "RandomInRange(1,2)",
                           "conditions": [],
@@ -10582,7 +11276,6 @@
                               ]
                             },
                             {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -10891,6 +11584,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Item",
               "conditions": [],
@@ -14796,38 +15490,180 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "Sprite"
                   },
-                  "parameters": [],
-                  "subInstructions": [
+                  "parameters": [
+                    "ActionButton",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ActionButton",
+                    "=",
+                    "175"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "ActionButton",
+                    "=",
+                    "TimerElapsedTime(\"Action\")/7*255"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsPressed"
+                  },
+                  "parameters": [
+                    "ActionButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "ActionButton",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "KeyPressed"
+                        "value": "CollisionPoint"
                       },
                       "parameters": [
-                        "",
-                        "f"
+                        "Tile",
+                        "Player.X()",
+                        "Player.Y()"
                       ]
                     },
                     {
                       "type": {
-                        "value": "ButtonStates::ButtonFSM::IsPressed"
+                        "value": "Sprite"
                       },
                       "parameters": [
-                        "ActionButton",
-                        "ButtonFSM",
+                        "Tile",
+                        "<=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Tile",
+                        "Player",
+                        "48",
                         ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "KeyPressed"
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+                      },
+                      "parameters": [
+                        "Energy",
+                        ">",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "Tile",
+                        "=",
+                        "8"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "Energy",
+                        "-",
+                        "20",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
                       },
                       "parameters": [
                         "",
-                        "x"
+                        "Hits",
+                        "Player.X()",
+                        "Player.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Hits",
+                        "=",
+                        "270"
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsPressed"
+                  },
+                  "parameters": [
+                    "ActionButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Action\"",
+                    ">=",
+                    "7"
                   ]
                 }
               ],
@@ -14845,6 +15681,7 @@
               ],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -14854,63 +15691,433 @@
                       "parameters": [
                         "ActionButton",
                         "=",
-                        "0"
+                        "1"
                       ]
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Action\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "splash.mp3",
+                        "",
+                        "25",
+                        ""
+                      ]
+                    }
+                  ],
                   "events": [
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Tile",
                       "conditions": [
                         {
                           "type": {
-                            "value": "CollisionPoint"
+                            "value": "Distance"
                           },
                           "parameters": [
                             "Tile",
-                            "Player.X()",
-                            "Player.Y()"
+                            "Player",
+                            "64",
+                            ""
                           ]
                         },
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "value": "Sprite"
                           },
-                          "parameters": [],
-                          "subInstructions": [
+                          "parameters": [
+                            "Tile",
+                            "<",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "RandomInRange(1,2)",
+                          "conditions": [
                             {
                               "type": {
-                                "value": "Sprite"
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
                               },
                               "parameters": [
-                                "Tile",
-                                "=",
-                                "0"
+                                "Random(10)",
+                                "<",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Item",
+                                "Tile.CenterX()",
+                                "Tile.CenterY()",
+                                ""
                               ]
                             },
                             {
                               "type": {
-                                "value": "Sprite"
+                                "value": "ModVarObjet"
                               },
                               "parameters": [
-                                "Tile",
+                                "Item",
+                                "Vy",
                                 "=",
-                                "1"
+                                "RandomFloatInRange(0.4,1.5)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Item",
+                                "Vx",
+                                "=",
+                                "RandomFloatInRange(-0.7,0.7)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Item",
+                                "Y",
+                                "=",
+                                "Tile.CenterY() + 32"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::XOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "32"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::YOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "16"
                               ]
                             }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                  },
+                                  "parameters": [
+                                    "Random(10)",
+                                    "<",
+                                    "2"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::XOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "48"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::YOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "0"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "ActionButton",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Action\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "swing.mp3",
+                        "",
+                        "25",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Tile",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Tile",
+                            "Player",
+                            "64",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Sprite"
+                          },
+                          "parameters": [
+                            "Tile",
+                            ">",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "RandomInRange(1,2)",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "Random(10)",
+                                "<",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Item",
+                                "Tile.CenterX()",
+                                "Tile.CenterY()",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Item",
+                                "Vy",
+                                "=",
+                                "RandomFloatInRange(0.4,1.5)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Item",
+                                "Vx",
+                                "=",
+                                "RandomFloatInRange(-0.7,0.7)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Item",
+                                "Y",
+                                "=",
+                                "Tile.CenterY() + 32"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::XOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "48"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::YOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "16"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                  },
+                                  "parameters": [
+                                    "Random(10)",
+                                    "<",
+                                    "2"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::XOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TiledSpriteObject::YOffset"
+                                  },
+                                  "parameters": [
+                                    "Item",
+                                    "=",
+                                    "0"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "ActionButton",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Action\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Prop",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Prop",
+                            "Player",
+                            "64",
+                            ""
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "ChangeSprite"
+                            "value": "Opacity"
                           },
                           "parameters": [
-                            "Tile",
+                            "Prop",
                             "=",
-                            "8"
+                            "80"
                           ]
                         }
                       ]
