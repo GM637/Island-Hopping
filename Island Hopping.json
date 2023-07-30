@@ -703,6 +703,138 @@
         "name": "Assets\\Fog.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Tiles/Tile33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Tiles\\Tile33.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Tiles/Tile34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Tiles\\Tile34.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Tiles/Tile35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Tiles\\Tile35.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Tiles/Tile36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Tiles\\Tile36.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Tiles/Tile37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Tiles\\Tile37.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Tiles/Tile38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Tiles\\Tile38.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Tiles/Tile39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Tiles\\Tile39.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Tiles/Tile40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Tiles\\Tile40.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Inventory.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Inventory.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Gamer.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Assets\\Gamer.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clock.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/5bda126949f32b4158f40bfde3a864b3a82e913ca1d9616c26189287a2256103_Clock.png",
+          "name": "Clock.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Forward.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Forward.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/19bc0879fb0e045c2aa583fe34fd5f94c20ac58fbe49d01aba93356a20f09c42_Forward.png",
+          "name": "Forward.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Camp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Camp.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Sundial.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Sundial.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -742,6 +874,47 @@
               "value": 0
             }
           ]
+        },
+        {
+          "name": "RequiredInvent",
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "Tools",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "Count",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Type",
+              "type": "number",
+              "value": 0
+            }
+          ]
         }
       ]
     }
@@ -767,7 +940,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.3,
         "snap": true,
-        "zoomFactor": 0.929687500000003,
+        "zoomFactor": 1.2121641972173725,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1128,6 +1301,85 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 106,
+          "layer": "UI",
+          "name": "InventIcon",
+          "persistentUuid": "a9430b03-10f5-4c0e-8cc5-32168605c755",
+          "width": 30,
+          "x": 12,
+          "y": 138,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "UI",
+          "name": "Clock",
+          "persistentUuid": "1678de4f-638b-4851-bc4a-701fce29cd0e",
+          "width": 48,
+          "x": 352,
+          "y": 112,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "UI",
+          "name": "Forward",
+          "persistentUuid": "43f204ec-0a2d-4d58-8d14-72ce48523572",
+          "width": 32,
+          "x": 336,
+          "y": 144,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Camp",
+          "persistentUuid": "f2200c80-fe8d-4d0c-9c2f-5ab6f5d8a3b4",
+          "width": 0,
+          "x": 96,
+          "y": -96,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 288,
+          "layer": "UI",
+          "name": "Sundial",
+          "persistentUuid": "0c9ca93e-8e44-4c55-8349-527915035115",
+          "width": 288,
+          "x": 400,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1204,9 +1456,9 @@
               "Toggle": false
             },
             {
-              "maxSpeed": 60,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "maxSpeed": 60,
               "acceleration": 600,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -3321,6 +3573,306 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 999999,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Tiles\\Tile33.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Tiles\\Tile34.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Tiles\\Tile35.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Tiles\\Tile36.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Tiles\\Tile37.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Tiles\\Tile38.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Tiles\\Tile39.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Tiles\\Tile40.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3688,13 +4240,13 @@
             {
               "name": "TextUpscaler",
               "type": "UpscaledText::TextUpscaler",
-              "Scale": 4,
+              "Scale": 3,
               "tx": 1,
               "ty": 1
             }
           ],
-          "string": "Energy 12am\n   - 999\n   - 999\n   - 999",
-          "font": "Assets\\8-bit Arcade In.ttf",
+          "string": "Energy 12am\n   - 999/999\n   - 999/999\n   - 999/999\n   - 999/999\nAH such a moment\nLol",
+          "font": "Assets\\Gamer.ttf",
           "textAlignment": "left",
           "characterSize": 36,
           "color": {
@@ -3713,18 +4265,37 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 0.5,
+                "blur": 0,
+                "distance": 5,
+                "padding": 5,
+                "quality": 1,
+                "rotation": -45
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
           "behaviors": [
             {
               "name": "TextUpscaler",
               "type": "UpscaledText::TextUpscaler",
-              "Scale": 4,
+              "Scale": 3,
               "tx": 1,
               "ty": 1
             }
           ],
-          "string": "DAY 12-\n12 PM",
-          "font": "Assets\\8-bit Arcade In.ttf",
+          "string": "DAY 12 \n12 PM",
+          "font": "Assets\\Gamer.ttf",
           "textAlignment": "right",
           "characterSize": 56,
           "color": {
@@ -3949,15 +4520,15 @@
             {
               "name": "TextUpscaler",
               "type": "UpscaledText::TextUpscaler",
-              "Scale": 4,
+              "Scale": 3,
               "tx": 1,
               "ty": 1
             }
           ],
           "string": "Energy",
-          "font": "Assets\\8-bit Arcade In.ttf",
+          "font": "Assets\\Gamer.ttf",
           "textAlignment": "left",
-          "characterSize": 32,
+          "characterSize": 36,
           "color": {
             "b": 255,
             "g": 255,
@@ -3979,15 +4550,15 @@
             {
               "name": "TextUpscaler",
               "type": "UpscaledText::TextUpscaler",
-              "Scale": 4,
+              "Scale": 3,
               "tx": 1,
               "ty": 1
             }
           ],
           "string": "Thirst",
-          "font": "Assets\\8-bit Arcade In.ttf",
+          "font": "Assets\\Gamer.ttf",
           "textAlignment": "left",
-          "characterSize": 32,
+          "characterSize": 36,
           "color": {
             "b": 255,
             "g": 255,
@@ -4009,15 +4580,15 @@
             {
               "name": "TextUpscaler",
               "type": "UpscaledText::TextUpscaler",
-              "Scale": 4,
+              "Scale": 3,
               "tx": 1,
               "ty": 1
             }
           ],
           "string": "Hunger",
-          "font": "Assets\\8-bit Arcade In.ttf",
+          "font": "Assets\\Gamer.ttf",
           "textAlignment": "left",
-          "characterSize": 32,
+          "characterSize": 36,
           "color": {
             "b": 255,
             "g": 255,
@@ -4119,6 +4690,350 @@
           "absoluteCoordinates": true,
           "clearBetweenFrames": false,
           "antialiasing": "none"
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "InventIcon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Inventory.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "67b0444cbc1f10be5dd05793082fd68b3f77b67798346983f9b6a34c5d1efb3d",
+          "name": "Clock",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Clock.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 12,
+                            "y": 0
+                          },
+                          {
+                            "x": 12,
+                            "y": 12
+                          },
+                          {
+                            "x": 0,
+                            "y": 12
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "ada9e328c235a998a3d8a33f350014387134e7c5e5e4c38da5d4e066ff5223f2",
+          "name": "Forward",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 0.5,
+                "blur": 0,
+                "distance": 5,
+                "padding": 5,
+                "quality": 1,
+                "rotation": -45
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0,
+              "KeyBind": "x",
+              "KeyBind2": "rshift",
+              "ClickOnlyIfVisible": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Forward.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 14
+                          },
+                          {
+                            "x": 0,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Camp",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Camp.png",
+                      "points": [
+                        {
+                          "name": "Deposit",
+                          "x": 40,
+                          "y": 24
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 40.5,
+                        "y": 44
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 40.5,
+                        "y": 44
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 80
+                          },
+                          {
+                            "x": 0,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Sundial",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Sundial.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 128
+                          },
+                          {
+                            "x": 0,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -4318,7 +5233,7 @@
                       "parameters": [
                         "Biome",
                         "=",
-                        "RandomInRange(0,3)"
+                        "RandomInRange(0,4)"
                       ]
                     },
                     {
@@ -4358,6 +5273,38 @@
                       "conditions": [
                         {
                           "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Data.Day",
+                            "<",
+                            "4"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Biome",
+                            "=",
+                            "GlobalVariable(Data.Day)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
                             "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
                           },
                           "parameters": [
@@ -4408,7 +5355,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Repeat",
                       "repeatExpression": "Variable(SIZE) * Variable(SIZE)",
                       "conditions": [
@@ -4609,6 +5555,27 @@
                                 "",
                                 "",
                                 ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "MettreAutour"
+                              },
+                              "parameters": [
+                                "Camp",
+                                "Player",
+                                "0",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "Camp",
+                                "=",
+                                "3"
                               ]
                             }
                           ]
@@ -4854,7 +5821,7 @@
                   "parameters": [
                     "TerrainRenDist",
                     "=",
-                    "12"
+                    "8"
                   ]
                 },
                 {
@@ -5398,7 +6365,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5454,6 +6420,18 @@
                     "Player",
                     "0",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SmoothCamera::SmoothCamera::SetOffsetYOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "SmoothCamera",
+                    "=",
+                    "0",
+                    ""
                   ]
                 }
               ]
@@ -6120,6 +7098,37 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Camp",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SmoothCamera::SmoothCamera::SetOffsetYOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "SmoothCamera",
+                    "=",
+                    "-24",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -6151,7 +7160,6 @@
               "actions": [],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -6228,7 +7236,7 @@
                       "parameters": [
                         "Prop",
                         "-",
-                        "( 4-Prop.Sprite() ) * 30"
+                        "( 4-Prop.Sprite() ) * 45"
                       ]
                     },
                     {
@@ -6384,7 +7392,6 @@
                       ],
                       "events": [
                         {
-                          "folded": true,
                           "type": "BuiltinCommonInstructions::Repeat",
                           "repeatExpression": "RandomInRange(1,2)",
                           "conditions": [],
@@ -6488,7 +7495,7 @@
                                   "parameters": [
                                     "Item",
                                     "=",
-                                    "0"
+                                    "RandomInRange(0,1) * 16"
                                   ]
                                 }
                               ]
@@ -6536,7 +7543,7 @@
                                   "parameters": [
                                     "Hunger",
                                     "-",
-                                    "3",
+                                    "1",
                                     ""
                                   ]
                                 }
@@ -6624,7 +7631,7 @@
                                   "parameters": [
                                     "Hunger",
                                     "-",
-                                    "5",
+                                    "3",
                                     ""
                                   ]
                                 }
@@ -6748,7 +7755,7 @@
                                   "parameters": [
                                     "Hunger",
                                     "-",
-                                    "7",
+                                    "5",
                                     ""
                                   ]
                                 }
@@ -6757,7 +7764,6 @@
                           ]
                         },
                         {
-                          "folded": true,
                           "type": "BuiltinCommonInstructions::Repeat",
                           "repeatExpression": "RandomInRange(1,2)",
                           "conditions": [],
@@ -6861,7 +7867,7 @@
                                   "parameters": [
                                     "Item",
                                     "=",
-                                    "0"
+                                    "RandomInRange(0,1) * 16"
                                   ]
                                 }
                               ]
@@ -6909,7 +7915,7 @@
                                   "parameters": [
                                     "Hunger",
                                     "-",
-                                    "3",
+                                    "1",
                                     ""
                                   ]
                                 }
@@ -6997,7 +8003,7 @@
                                   "parameters": [
                                     "Hunger",
                                     "-",
-                                    "5",
+                                    "3",
                                     ""
                                   ]
                                 }
@@ -7121,7 +8127,7 @@
                                   "parameters": [
                                     "Hunger",
                                     "-",
-                                    "7",
+                                    "5",
                                     ""
                                   ]
                                 }
@@ -7176,7 +8182,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7217,7 +8222,6 @@
               ],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -7300,7 +8304,6 @@
                   ],
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -7470,7 +8473,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -7593,6 +8595,219 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "Variable(TIME) * 6",
+                                ">",
+                                "floor(Variable(TIME) * 6)"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TextObject::String"
+                              },
+                              "parameters": [
+                                "Debug",
+                                "=",
+                                "\"POS \" + ToString(mod(round(Player.X()/16),Variable(SIZE)) ) + \" \" + ToString(mod(round(Player.Y()/16),Variable(SIZE)) )  "
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "folded": true,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TextObject::String"
+                                  },
+                                  "parameters": [
+                                    "Debug",
+                                    "+",
+                                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[0])) "
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "VarGlobal"
+                                      },
+                                      "parameters": [
+                                        "Data.Inventory[0]",
+                                        "<",
+                                        "GlobalVariable(Data.RequiredInvent[0])"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "TextObject::String"
+                                      },
+                                      "parameters": [
+                                        "Debug",
+                                        "+",
+                                        "\"/\" + GlobalVariableString(Data.RequiredInvent[0])"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "folded": true,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TextObject::String"
+                                  },
+                                  "parameters": [
+                                    "Debug",
+                                    "+",
+                                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[1])) "
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "VarGlobal"
+                                      },
+                                      "parameters": [
+                                        "Data.Inventory[1]",
+                                        "<",
+                                        "GlobalVariable(Data.RequiredInvent[1])"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "TextObject::String"
+                                      },
+                                      "parameters": [
+                                        "Debug",
+                                        "+",
+                                        "\"/\" + GlobalVariableString(Data.RequiredInvent[1])"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "folded": true,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TextObject::String"
+                                  },
+                                  "parameters": [
+                                    "Debug",
+                                    "+",
+                                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[2])) "
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "VarGlobal"
+                                      },
+                                      "parameters": [
+                                        "Data.Inventory[2]",
+                                        "<",
+                                        "GlobalVariable(Data.RequiredInvent[2])"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "TextObject::String"
+                                      },
+                                      "parameters": [
+                                        "Debug",
+                                        "+",
+                                        "\"/\" + GlobalVariableString(Data.RequiredInvent[2])"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TextObject::String"
+                                  },
+                                  "parameters": [
+                                    "Debug",
+                                    "+",
+                                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[3])) "
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "VarGlobal"
+                                      },
+                                      "parameters": [
+                                        "Data.Inventory[3]",
+                                        "<",
+                                        "GlobalVariable(Data.RequiredInvent[3])"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "TextObject::String"
+                                      },
+                                      "parameters": [
+                                        "Debug",
+                                        "+",
+                                        "\"/\" + GlobalVariableString(Data.RequiredInvent[3])"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
@@ -7653,6 +8868,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "UI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7689,7 +8905,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7770,6 +8985,219 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Variable(TIME) * 6",
+                        ">",
+                        "floor(Variable(TIME) * 6)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Debug",
+                        "=",
+                        "\"POS \" + ToString(mod(round(Player.X()/16),Variable(SIZE)) ) + \" \" + ToString(mod(round(Player.Y()/16),Variable(SIZE)) )  "
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[0])) "
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "Data.Inventory[0]",
+                                "<",
+                                "GlobalVariable(Data.RequiredInvent[0])"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TextObject::String"
+                              },
+                              "parameters": [
+                                "Debug",
+                                "+",
+                                "\"/\" + GlobalVariableString(Data.RequiredInvent[0])"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[1])) "
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "Data.Inventory[1]",
+                                "<",
+                                "GlobalVariable(Data.RequiredInvent[1])"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TextObject::String"
+                              },
+                              "parameters": [
+                                "Debug",
+                                "+",
+                                "\"/\" + GlobalVariableString(Data.RequiredInvent[1])"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[2])) "
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "Data.Inventory[2]",
+                                "<",
+                                "GlobalVariable(Data.RequiredInvent[2])"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TextObject::String"
+                              },
+                              "parameters": [
+                                "Debug",
+                                "+",
+                                "\"/\" + GlobalVariableString(Data.RequiredInvent[2])"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[3])) "
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "Data.Inventory[3]",
+                                "<",
+                                "GlobalVariable(Data.RequiredInvent[3])"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TextObject::String"
+                              },
+                              "parameters": [
+                                "Debug",
+                                "+",
+                                "\"/\" + GlobalVariableString(Data.RequiredInvent[3])"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -7799,24 +9227,42 @@
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "Opacity"
                   },
                   "parameters": [
-                    "Day",
+                    "Sundial",
                     "=",
-                    "\"DAY \" + GlobalVariableString(Data.Day)+ \"-\" + NewLine()"
+                    "175"
                   ]
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "SetAngle"
                   },
                   "parameters": [
-                    "Day",
-                    "+",
-                    "ToString(1+mod(6 + round(Variable(TIME)*6),12))"
+                    "Sundial",
+                    "=",
+                    "Variable(TIME) * 90 - 90"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Variable(TIME) * 6",
+                    ">",
+                    "floor(Variable(TIME) * 6)"
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "TextObject::String"
@@ -7826,27 +9272,210 @@
                     "=",
                     "\"POS \" + ToString(mod(round(Player.X()/16),Variable(SIZE)) ) + \" \" + ToString(mod(round(Player.Y()/16),Variable(SIZE)) )  "
                   ]
-                },
+                }
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Debug",
-                    "+",
-                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[0]))"
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Debug",
+                        "+",
+                        "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[0])) "
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Data.Inventory[0]",
+                            "<",
+                            "GlobalVariable(Data.RequiredInvent[0])"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "\"/\" + GlobalVariableString(Data.RequiredInvent[0])"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Debug",
-                    "+",
-                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[1]))"
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Debug",
+                        "+",
+                        "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[1])) "
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Data.Inventory[1]",
+                            "<",
+                            "GlobalVariable(Data.RequiredInvent[1])"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "\"/\" + GlobalVariableString(Data.RequiredInvent[1])"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Debug",
+                        "+",
+                        "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[2])) "
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Data.Inventory[2]",
+                            "<",
+                            "GlobalVariable(Data.RequiredInvent[2])"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "\"/\" + GlobalVariableString(Data.RequiredInvent[2])"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Debug",
+                        "+",
+                        "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[3])) "
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Data.Inventory[3]",
+                            "<",
+                            "GlobalVariable(Data.RequiredInvent[3])"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "\"/\" + GlobalVariableString(Data.RequiredInvent[3])"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+                  },
+                  "parameters": [
+                    "Hunger",
+                    "<",
+                    "20",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "TextObject::String"
@@ -7854,9 +9483,27 @@
                   "parameters": [
                     "Debug",
                     "+",
-                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[2]))"
+                    "NewLine() + \"I'm Very Hungry...\" "
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+                  },
+                  "parameters": [
+                    "Thirst",
+                    "<",
+                    "20",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "TextObject::String"
@@ -7864,7 +9511,34 @@
                   "parameters": [
                     "Debug",
                     "+",
-                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[3]))"
+                    "NewLine() + \"I'm Very Thirsty...\" "
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    ">",
+                    "1.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "+",
+                    "NewLine() + \"Head Back to CAMP!\nDeposit Your Items \nOr You'll Lose them!\" "
                   ]
                 }
               ]
@@ -7880,7 +9554,7 @@
                   "parameters": [
                     "Energy",
                     "+",
-                    "1",
+                    "2",
                     ""
                   ]
                 },
@@ -7941,6 +9615,109 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsPressed"
+                      },
+                      "parameters": [
+                        "Forward",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "c"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "RShift"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "+",
+                    "3/(120*60)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "+",
+                    "3/(120*60)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "+",
+                    "3/(120*60)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "+",
+                    "3/(120*60)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "+",
+                    "3/(120*60)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TIME",
+                    "+",
+                    "3/(120*60)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
                 {
@@ -7951,6 +9728,36 @@
                     "TIME",
                     "+",
                     "3/(120*60)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Day",
+                    "=",
+                    "\"DAY \" + GlobalVariableString(Data.Day)+ \" \" + NewLine()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Day",
+                    "+",
+                    "ToString(1+mod(6 + round(Variable(TIME)*6),12))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Clock",
+                    "=",
+                    "Variable(TIME)* (360/3)"
                   ]
                 }
               ]
@@ -8132,7 +9939,7 @@
                   "parameters": [
                     "TIME",
                     "<",
-                    "3"
+                    "2.8"
                   ]
                 }
               ],
@@ -8170,6 +9977,37 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+                  },
+                  "parameters": [
+                    "Trans",
+                    "FlashTransitionPainter",
+                    "\"0;0;0\"",
+                    "1",
+                    "\"Vertical\"",
+                    "\"Both\"",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Noise::SetSeed"
@@ -8229,6 +10067,37 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+                  },
+                  "parameters": [
+                    "Trans",
+                    "FlashTransitionPainter",
+                    "\"0;0;0\"",
+                    "1",
+                    "\"Vertical\"",
+                    "\"Both\"",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Noise::SetSeed"
@@ -8393,6 +10262,159 @@
           "type": "YSort::YSort"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "GameOver",
+      "name": "GameOver",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6481481481481481,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Transition",
+      "name": "Transition",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "MainMenu",
+      "name": "MainMenu",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
