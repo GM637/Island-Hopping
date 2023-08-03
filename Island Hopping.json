@@ -21,13 +21,13 @@
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Island Hopping",
-    "description": "",
+    "description": "Controls : \n-  WASD / Arrow Keys  -  Move\n-  Z / Space  -  Roll / Hit stuff\n-  X / F  -  Power Tool\n-  C / RShift  -  Fast Foward\n\nImagine an average survival game, but everyday you are on a new set of islands! You have ONE day to collect enough materials before the night comes or you'll dieee\n\nMade by Solo Dev GM637\nConstellation by Theo Aabel\n\nMade for RedGames Jam 2023",
     "author": "GM637",
     "windowWidth": 640,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Hp\\Desktop\\Island Hopping\\Assets\\Export",
     "maxFPS": 60,
-    "minFPS": 20,
+    "minFPS": 30,
     "verticalSync": false,
     "platformSpecificAssets": {
       "android-icon-144": "",
@@ -57,7 +57,7 @@
       "ios-icon-76": "",
       "ios-icon-80": "",
       "ios-icon-87": "",
-      "liluo-thumbnail": ""
+      "liluo-thumbnail": "A (1).png"
     },
     "loadingScreen": {
       "backgroundColor": 0,
@@ -79,10 +79,21 @@
       "placement": "bottom-left",
       "showWatermark": true
     },
-    "authorIds": [],
-    "authorUsernames": [],
-    "categories": [],
-    "playableDevices": [],
+    "authorIds": [
+      "823AVfiJGaa0GnKv75dfq3EtXjt1"
+    ],
+    "authorUsernames": [
+      "GM637"
+    ],
+    "categories": [
+      "survival",
+      "strategy",
+      "adventure"
+    ],
+    "playableDevices": [
+      "keyboard",
+      "mobile"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -796,7 +807,7 @@
         "alwaysLoaded": false,
         "file": "assets/Clock.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Clock.png\",\"extension\":\".png\"}",
         "name": "Clock.png",
         "smoothed": false,
         "userAdded": false,
@@ -936,6 +947,332 @@
         "preloadAsMusic": false,
         "preloadAsSound": true,
         "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Assets_Inventory5.png\"}",
+        "name": "Assets\\Inventory5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Assets_Inventory14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Inventory14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/List/Assets_Inventory16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\List\\Assets_Inventory16.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/AAA.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 34\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.09,\\\"sustainPunch\\\":0,\\\"decay\\\":0.34,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":3900,\\\"frequencySweep\\\":-2000,\\\"frequencyDeltaSweep\\\":-1900,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":2,\\\"flangerOffsetSweep\\\":10,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1.3,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"AAA\"}}",
+        "name": "AAA",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "A (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "A (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clock2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Clock2.png\"}",
+        "name": "Clock",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bits.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 26\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.05,\\\"sustainPunch\\\":0,\\\"decay\\\":0.35000000000000003,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":700,\\\"frequencySweep\\\":1600,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"square\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":75,\\\"squareDutySweep\\\":80,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":4700,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Bits\"}}",
+        "name": "Bits",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Forward2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Forward2.png\"}",
+        "name": "Forward",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Forward3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Forward2",
+        "smoothed": false,
         "userAdded": false
       }
     ],
@@ -1691,6 +2028,16 @@
                 "=",
                 "125"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Data.Tools.Type",
+                "=",
+                "-1"
+              ]
             }
           ]
         },
@@ -1969,7 +2316,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2016,76 +2362,100 @@
                   "parameters": []
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Data.Tools.Type",
-                    "=",
-                    "TOOL.Sprite()"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "TOOL",
+                        ">",
+                        "195"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Tools.Type",
+                        "=",
+                        "TOOL.Sprite()"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"Player\"",
-                    "\"Data\"",
-                    "GlobalVarToJSON(Data)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierExp"
-                  },
-                  "parameters": [
-                    "\"Main\"",
-                    "\"Check\"",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-                  },
-                  "parameters": [
-                    "Trans",
-                    "FlashTransitionPainter",
-                    "\"0;0;0\"",
-                    "1",
-                    "\"Vertical\"",
-                    "\"Both\"",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PopScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Game\"",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"Player\"",
+                        "\"Data\"",
+                        "GlobalVarToJSON(Data)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"Main\"",
+                        "\"Check\"",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+                      },
+                      "parameters": [
+                        "Trans",
+                        "FlashTransitionPainter",
+                        "\"0;0;0\"",
+                        "1",
+                        "\"Vertical\"",
+                        "\"Both\"",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PopScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Game\"",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -2093,7 +2463,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2695,7 +3064,7 @@
                 "Trans",
                 "FlashTransitionPainter",
                 "\"0;0;0\"",
-                "2",
+                "0.5",
                 "\"Flash\"",
                 "\"Backward\"",
                 "",
@@ -3136,7 +3505,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.3,
         "snap": true,
-        "zoomFactor": 1.0615714305220068,
+        "zoomFactor": 1.3389693172845534,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3336,8 +3705,8 @@
           "name": "Energy",
           "persistentUuid": "89565dba-8220-4e8e-84e7-5a4be8dd1ca8",
           "width": 224,
-          "x": -11,
-          "y": 17,
+          "x": -32,
+          "y": -96,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -3351,9 +3720,9 @@
           "layer": "UI",
           "name": "Thirst",
           "persistentUuid": "3aee4b1c-ff99-4259-99d8-4f1e5d23afc7",
-          "width": 208,
-          "x": -11,
-          "y": 43,
+          "width": 144,
+          "x": -16,
+          "y": 16,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -3367,9 +3736,9 @@
           "layer": "UI",
           "name": "Hunger",
           "persistentUuid": "d6f30a48-5c29-46c8-8eb0-a3c393b63513",
-          "width": 192,
-          "x": -11,
-          "y": 69,
+          "width": 128,
+          "x": -16,
+          "y": 42,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3383,8 +3752,8 @@
           "name": "UIText2",
           "persistentUuid": "3972c8b3-c22d-4a5c-8fe6-16bf322831d6",
           "width": 0,
-          "x": 31,
-          "y": 44,
+          "x": 4,
+          "y": 17,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -3398,8 +3767,8 @@
           "name": "UIText3",
           "persistentUuid": "2119bd38-c323-441f-923d-7a1ef4169dd6",
           "width": 0,
-          "x": 49,
-          "y": 70,
+          "x": 22,
+          "y": 43,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -3413,8 +3782,8 @@
           "name": "UIText",
           "persistentUuid": "a8422121-30cb-44ae-bf09-d912acd703ce",
           "width": 0,
-          "x": 19,
-          "y": 18,
+          "x": -2,
+          "y": -95,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -3428,8 +3797,8 @@
           "name": "Debug",
           "persistentUuid": "97e883a7-0bff-4326-b0da-b8a49d618ce8",
           "width": 0,
-          "x": 16,
-          "y": 112,
+          "x": 18,
+          "y": 80,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -3491,7 +3860,7 @@
           "name": "Day",
           "persistentUuid": "e2816354-b0b2-4015-b32d-c5ca98aa18bf",
           "width": 0,
-          "x": 250,
+          "x": 168,
           "y": 16,
           "zOrder": 10,
           "numberProperties": [],
@@ -3507,8 +3876,8 @@
           "name": "InventIcon",
           "persistentUuid": "a9430b03-10f5-4c0e-8cc5-32168605c755",
           "width": 30,
-          "x": 12,
-          "y": 138,
+          "x": 16,
+          "y": 134,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3523,8 +3892,8 @@
           "name": "Clock",
           "persistentUuid": "1678de4f-638b-4851-bc4a-701fce29cd0e",
           "width": 48,
-          "x": 352,
-          "y": 112,
+          "x": 336,
+          "y": 16,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -3534,13 +3903,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 32,
+          "height": 48,
           "layer": "UI",
           "name": "Forward",
           "persistentUuid": "43f204ec-0a2d-4d58-8d14-72ce48523572",
-          "width": 32,
-          "x": 336,
-          "y": 144,
+          "width": 48,
+          "x": 320,
+          "y": 32,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3565,12 +3934,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 288,
+          "height": 160,
           "layer": "UI",
           "name": "Sundial",
           "persistentUuid": "0c9ca93e-8e44-4c55-8349-527915035115",
-          "width": 288,
-          "x": 400,
+          "width": 160,
+          "x": 224,
           "y": 0,
           "zOrder": 4,
           "numberProperties": [],
@@ -3631,10 +4000,10 @@
             {
               "name": "SmoothCamera",
               "type": "SmoothCamera::SmoothCamera",
-              "LeftwardSpeed": 0.99,
-              "RightwardSpeed": 0.99,
-              "UpwardSpeed": 0.99,
-              "DownwardSpeed": 0.99,
+              "LeftwardSpeed": 0.995,
+              "RightwardSpeed": 0.995,
+              "UpwardSpeed": 0.995,
+              "DownwardSpeed": 0.995,
               "FollowOnX": true,
               "FollowOnY": true,
               "FollowFreeAreaLeft": 0,
@@ -6612,7 +6981,7 @@
               "ty": 1
             }
           ],
-          "string": "Energy 12am\n   - 999/999\n   - 999/999\n   - 999/999\n   - 999/999",
+          "string": "(99,99)\nChecklist :\n   - 999/999\n   - 999/999\n   - 999/999\n   - 999/999",
           "font": "Assets\\Gamer.ttf",
           "textAlignment": "left",
           "characterSize": 36,
@@ -6632,7 +7001,36 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "BlendingMode",
+              "name": "Effect",
+              "doubleParameters": {
+                "blendmode": 1,
+                "opacity": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "DropShadow",
+              "name": "Effect2",
+              "doubleParameters": {
+                "alpha": 0.5,
+                "blur": 0,
+                "distance": 4,
+                "padding": 1,
+                "quality": 1,
+                "rotation": 45
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
           "behaviors": [
             {
               "name": "TextUpscaler",
@@ -6652,7 +7050,7 @@
           "string": "Testing Testing\n123 123\nHello Hello?",
           "font": "Assets\\Gamer.ttf",
           "textAlignment": "center",
-          "characterSize": 12,
+          "characterSize": 10,
           "color": {
             "b": 255,
             "g": 255,
@@ -6698,9 +7096,9 @@
               "ty": 1
             }
           ],
-          "string": "DAY 12 \n12 PM",
+          "string": "DAY 12\n12 PM",
           "font": "Assets\\Gamer.ttf",
-          "textAlignment": "right",
+          "textAlignment": "center",
           "characterSize": 56,
           "color": {
             "b": 255,
@@ -7255,16 +7653,557 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Assets\\Inventory",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 99999,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "Assets\\Inventory.png",
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory16.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7316,16 +8255,17 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Clock",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.025,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Clock.png",
+                      "image": "Clock",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7366,7 +8306,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "ada9e328c235a998a3d8a33f350014387134e7c5e5e4c38da5d4e066ff5223f2",
           "name": "Forward",
           "tags": "",
@@ -7375,22 +8315,16 @@
           "variables": [],
           "effects": [
             {
-              "effectType": "DropShadow",
+              "effectType": "Outline",
               "name": "Effect",
               "doubleParameters": {
-                "alpha": 0.5,
-                "blur": 0,
-                "distance": 5,
-                "padding": 5,
-                "quality": 1,
-                "rotation": -45
+                "padding": 3,
+                "thickness": 3
               },
               "stringParameters": {
                 "color": "0;0;0"
               },
-              "booleanParameters": {
-                "shadowOnly": false
-              }
+              "booleanParameters": {}
             }
           ],
           "behaviors": [
@@ -7410,16 +8344,17 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "Forward",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.025,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "Forward.png",
+                      "hasCustomCollisionMask": false,
+                      "image": "Forward2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7432,26 +8367,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 14,
-                            "y": 0
-                          },
-                          {
-                            "x": 14,
-                            "y": 14
-                          },
-                          {
-                            "x": 0,
-                            "y": 14
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -8429,7 +9345,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8476,6 +9391,39 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "TerrainRenDist",
+                        "=",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "TerrainSize",
+                        "=",
+                        "Variable(TerrainRenDist) * 2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
@@ -8486,7 +9434,7 @@
                         "",
                         "Tile",
                         "Variable(TerrainSize)",
-                        "Variable(TerrainSize)",
+                        "Variable(TerrainSize) + 6",
                         "0",
                         "0",
                         "0",
@@ -8512,6 +9460,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8553,7 +9502,7 @@
                     "=",
                     "( Tile.Variable(RowID) - Variable(TerrainRenDist) ) * 16 + Player.X() - 8",
                     "=",
-                    "( Tile.Variable(ColumnID) - Variable(TerrainRenDist) ) * 16 + Player.Y() - 8"
+                    "( Tile.Variable(ColumnID) - Variable(TerrainRenDist) - 3 ) * 16 + Player.Y() - 8"
                   ]
                 },
                 {
@@ -8898,10 +9847,21 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Prop",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Prop",
+                    "Player",
+                    "256",
+                    ""
+                  ]
+                }
+              ],
               "actions": [],
               "events": [
                 {
@@ -10590,6 +11550,7 @@
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -10722,6 +11683,16 @@
                         "Prop",
                         "-90",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Score",
+                        "+",
+                        "4"
                       ]
                     },
                     {
@@ -11611,10 +12582,73 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Item",
+                    "<",
+                    "Item.Variable(Y)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Item",
+                    "Y",
+                    "=",
+                    "-999"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceVers"
+                  },
+                  "parameters": [
+                    "Item",
+                    "Player",
+                    "8",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
               "folded": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Item",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Item",
+                    "<",
+                    "Item.Variable(Y)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Item",
+                    "Player",
+                    "64",
+                    ""
+                  ]
+                }
+              ],
               "actions": [],
               "events": [
                 {
@@ -11622,20 +12656,18 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "PosY"
+                        "value": "Distance"
                       },
                       "parameters": [
                         "Item",
-                        "<",
-                        "Item.Variable(Y)"
+                        "Player",
+                        "12",
+                        ""
                       ]
-                    }
-                  ],
-                  "actions": [
+                    },
                     {
                       "type": {
-                        "value": "ModVarObjet"
+                        "value": "VarObjet"
                       },
                       "parameters": [
                         "Item",
@@ -11646,49 +12678,92 @@
                     },
                     {
                       "type": {
-                        "value": "AddForceVers"
+                        "value": "VarObjet"
                       },
                       "parameters": [
                         "Item",
-                        "Player",
-                        "8",
-                        "1"
+                        "F",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Item",
+                        "Vy",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Item",
+                        "Y",
+                        "=",
+                        "Item.Y() + 16"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Item",
+                        "F",
+                        "=",
+                        "15"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Item"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Item",
+                        "",
+                        "25",
+                        "RandomFloatInRange(0.9,1.1)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Score",
+                        "+",
+                        "10"
                       ]
                     }
                   ],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "Distance"
+                            "value": "TiledSpriteObject::YOffset"
                           },
                           "parameters": [
                             "Item",
-                            "Player",
-                            "12",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Item",
-                            "Y",
-                            "=",
-                            "-999"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Item",
-                            "F",
                             "=",
                             "0"
                           ]
@@ -11697,55 +12772,24 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "ModVarObjet"
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
                           },
                           "parameters": [
-                            "Item",
-                            "Vy",
-                            "=",
-                            "3"
+                            "Hunger",
+                            "+",
+                            "7",
+                            ""
                           ]
                         },
                         {
                           "type": {
-                            "value": "ModVarObjet"
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
                           },
                           "parameters": [
-                            "Item",
-                            "Y",
-                            "=",
-                            "Item.Y() + 16"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Item",
-                            "F",
-                            "=",
-                            "15"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Arreter"
-                          },
-                          "parameters": [
-                            "Item"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "Item",
-                            "",
-                            "25",
-                            "RandomFloatInRange(0.9,1.1)"
+                            "Thirst",
+                            "+",
+                            "7",
+                            ""
                           ]
                         }
                       ],
@@ -11755,12 +12799,68 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "TiledSpriteObject::YOffset"
+                                "value": "TiledSpriteObject::XOffset"
                               },
                               "parameters": [
                                 "Item",
                                 "=",
-                                "0"
+                                "16"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                              },
+                              "parameters": [
+                                "Energy",
+                                "+",
+                                "15",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::XOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "32"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                              },
+                              "parameters": [
+                                "Thirst",
+                                "+",
+                                "10",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::XOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "48"
                               ]
                             }
                           ],
@@ -11772,7 +12872,7 @@
                               "parameters": [
                                 "Hunger",
                                 "+",
-                                "7",
+                                "15",
                                 ""
                               ]
                             },
@@ -11783,138 +12883,8 @@
                               "parameters": [
                                 "Thirst",
                                 "+",
-                                "7",
+                                "3",
                                 ""
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "TiledSpriteObject::XOffset"
-                                  },
-                                  "parameters": [
-                                    "Item",
-                                    "=",
-                                    "16"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                                  },
-                                  "parameters": [
-                                    "Energy",
-                                    "+",
-                                    "15",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "TiledSpriteObject::XOffset"
-                                  },
-                                  "parameters": [
-                                    "Item",
-                                    "=",
-                                    "32"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                                  },
-                                  "parameters": [
-                                    "Thirst",
-                                    "+",
-                                    "10",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "TiledSpriteObject::XOffset"
-                                  },
-                                  "parameters": [
-                                    "Item",
-                                    "=",
-                                    "48"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                                  },
-                                  "parameters": [
-                                    "Hunger",
-                                    "+",
-                                    "15",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                                  },
-                                  "parameters": [
-                                    "Thirst",
-                                    "+",
-                                    "3",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::Once"
-                                  },
-                                  "parameters": []
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Wait"
-                                  },
-                                  "parameters": [
-                                    "0.5"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "PlaySound"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Assets\\Sfx\\burpmale_sfxb.mp3",
-                                    "",
-                                    "25",
-                                    "RandomFloatInRange(0.9,1.1)"
-                                  ]
-                                }
                               ]
                             }
                           ]
@@ -11924,7 +12894,86 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "TiledSpriteObject::YOffset"
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "Assets\\Sfx\\burpmale_sfxb.mp3",
+                                "",
+                                "25",
+                                "RandomFloatInRange(0.9,1.1)"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "TiledSpriteObject::YOffset"
+                          },
+                          "parameters": [
+                            "Item",
+                            "=",
+                            "16"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::XOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "Data.Inventory[0]",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::XOffset"
                               },
                               "parameters": [
                                 "Item",
@@ -11933,18 +12982,110 @@
                               ]
                             }
                           ],
-                          "actions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "Data.Inventory[1]",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::XOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "32"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "Data.Inventory[2]",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "TiledSpriteObject::XOffset"
+                              },
+                              "parameters": [
+                                "Item",
+                                "=",
+                                "48"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "Data.Inventory[3]",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TextObject::String"
+                              },
+                              "parameters": [
+                                "Debug",
+                                "=",
+                                "\"(\" + ToString(mod(round(Player.X()/16),Variable(SIZE)) ) + \",\" + ToString(mod(round(Player.Y()/16),Variable(SIZE)) )  + \")\" + NewLine() + \"Checklist :\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangeSprite"
+                              },
+                              "parameters": [
+                                "InventIcon",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
                           "events": [
                             {
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
                                   "type": {
-                                    "value": "TiledSpriteObject::XOffset"
+                                    "value": "VarGlobal"
                                   },
                                   "parameters": [
-                                    "Item",
-                                    "=",
+                                    "Data.RequiredInvent[0]",
+                                    "!=",
                                     "0"
                                   ]
                                 }
@@ -11952,10 +13093,30 @@
                               "actions": [
                                 {
                                   "type": {
-                                    "value": "ModVarGlobal"
+                                    "value": "TextObject::String"
                                   },
                                   "parameters": [
-                                    "Data.Inventory[0]",
+                                    "Debug",
+                                    "+",
+                                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[0])) "
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TextObject::String"
+                                  },
+                                  "parameters": [
+                                    "Debug",
+                                    "+",
+                                    "\"/\" + GlobalVariableString(Data.RequiredInvent[0])"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangeSprite"
+                                  },
+                                  "parameters": [
+                                    "InventIcon",
                                     "+",
                                     "1"
                                   ]
@@ -11967,86 +13128,15 @@
                               "conditions": [
                                 {
                                   "type": {
-                                    "value": "TiledSpriteObject::XOffset"
+                                    "value": "VarGlobal"
                                   },
                                   "parameters": [
-                                    "Item",
-                                    "=",
-                                    "16"
+                                    "Data.RequiredInvent[1]",
+                                    "!=",
+                                    "0"
                                   ]
                                 }
                               ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "ModVarGlobal"
-                                  },
-                                  "parameters": [
-                                    "Data.Inventory[1]",
-                                    "+",
-                                    "1"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "TiledSpriteObject::XOffset"
-                                  },
-                                  "parameters": [
-                                    "Item",
-                                    "=",
-                                    "32"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "ModVarGlobal"
-                                  },
-                                  "parameters": [
-                                    "Data.Inventory[2]",
-                                    "+",
-                                    "1"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "TiledSpriteObject::XOffset"
-                                  },
-                                  "parameters": [
-                                    "Item",
-                                    "=",
-                                    "48"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "ModVarGlobal"
-                                  },
-                                  "parameters": [
-                                    "Data.Inventory[3]",
-                                    "+",
-                                    "1"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "folded": true,
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [],
                               "actions": [
                                 {
                                   "type": {
@@ -12054,190 +13144,122 @@
                                   },
                                   "parameters": [
                                     "Debug",
-                                    "=",
-                                    "\"POS \" + ToString(mod(round(Player.X()/16),Variable(SIZE)) ) + \" \" + ToString(mod(round(Player.Y()/16),Variable(SIZE)) )  "
+                                    "+",
+                                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[1])) "
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TextObject::String"
+                                  },
+                                  "parameters": [
+                                    "Debug",
+                                    "+",
+                                    "\"/\" + GlobalVariableString(Data.RequiredInvent[1])"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangeSprite"
+                                  },
+                                  "parameters": [
+                                    "InventIcon",
+                                    "+",
+                                    "2"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Data.RequiredInvent[2]",
+                                    "!=",
+                                    "0"
                                   ]
                                 }
                               ],
-                              "events": [
+                              "actions": [
                                 {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "TextObject::String"
-                                      },
-                                      "parameters": [
-                                        "Debug",
-                                        "+",
-                                        "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[0])) "
-                                      ]
-                                    }
-                                  ],
-                                  "events": [
-                                    {
-                                      "type": "BuiltinCommonInstructions::Standard",
-                                      "conditions": [
-                                        {
-                                          "type": {
-                                            "value": "VarGlobal"
-                                          },
-                                          "parameters": [
-                                            "Data.RequiredInvent[0]",
-                                            "!=",
-                                            "0"
-                                          ]
-                                        }
-                                      ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "value": "TextObject::String"
-                                          },
-                                          "parameters": [
-                                            "Debug",
-                                            "+",
-                                            "\"/\" + GlobalVariableString(Data.RequiredInvent[0])"
-                                          ]
-                                        }
-                                      ]
-                                    }
+                                  "type": {
+                                    "value": "TextObject::String"
+                                  },
+                                  "parameters": [
+                                    "Debug",
+                                    "+",
+                                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[2])) "
                                   ]
                                 },
                                 {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "TextObject::String"
-                                      },
-                                      "parameters": [
-                                        "Debug",
-                                        "+",
-                                        "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[1])) "
-                                      ]
-                                    }
-                                  ],
-                                  "events": [
-                                    {
-                                      "type": "BuiltinCommonInstructions::Standard",
-                                      "conditions": [
-                                        {
-                                          "type": {
-                                            "value": "VarGlobal"
-                                          },
-                                          "parameters": [
-                                            "Data.RequiredInvent[1]",
-                                            "!=",
-                                            "0"
-                                          ]
-                                        }
-                                      ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "value": "TextObject::String"
-                                          },
-                                          "parameters": [
-                                            "Debug",
-                                            "+",
-                                            "\"/\" + GlobalVariableString(Data.RequiredInvent[1])"
-                                          ]
-                                        }
-                                      ]
-                                    }
+                                  "type": {
+                                    "value": "TextObject::String"
+                                  },
+                                  "parameters": [
+                                    "Debug",
+                                    "+",
+                                    "\"/\" + GlobalVariableString(Data.RequiredInvent[2])"
                                   ]
                                 },
                                 {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "TextObject::String"
-                                      },
-                                      "parameters": [
-                                        "Debug",
-                                        "+",
-                                        "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[2])) "
-                                      ]
-                                    }
-                                  ],
-                                  "events": [
-                                    {
-                                      "type": "BuiltinCommonInstructions::Standard",
-                                      "conditions": [
-                                        {
-                                          "type": {
-                                            "value": "VarGlobal"
-                                          },
-                                          "parameters": [
-                                            "Data.RequiredInvent[2]",
-                                            "!=",
-                                            "0"
-                                          ]
-                                        }
-                                      ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "value": "TextObject::String"
-                                          },
-                                          "parameters": [
-                                            "Debug",
-                                            "+",
-                                            "\"/\" + GlobalVariableString(Data.RequiredInvent[2])"
-                                          ]
-                                        }
-                                      ]
-                                    }
+                                  "type": {
+                                    "value": "ChangeSprite"
+                                  },
+                                  "parameters": [
+                                    "InventIcon",
+                                    "+",
+                                    "4"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Data.RequiredInvent[3]",
+                                    "!=",
+                                    "0"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TextObject::String"
+                                  },
+                                  "parameters": [
+                                    "Debug",
+                                    "+",
+                                    "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[3])) "
                                   ]
                                 },
                                 {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "TextObject::String"
-                                      },
-                                      "parameters": [
-                                        "Debug",
-                                        "+",
-                                        "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[3])) "
-                                      ]
-                                    }
-                                  ],
-                                  "events": [
-                                    {
-                                      "type": "BuiltinCommonInstructions::Standard",
-                                      "conditions": [
-                                        {
-                                          "type": {
-                                            "value": "VarGlobal"
-                                          },
-                                          "parameters": [
-                                            "Data.RequiredInvent[3]",
-                                            "!=",
-                                            "0"
-                                          ]
-                                        }
-                                      ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "value": "TextObject::String"
-                                          },
-                                          "parameters": [
-                                            "Debug",
-                                            "+",
-                                            "\"/\" + GlobalVariableString(Data.RequiredInvent[3])"
-                                          ]
-                                        }
-                                      ]
-                                    }
+                                  "type": {
+                                    "value": "TextObject::String"
+                                  },
+                                  "parameters": [
+                                    "Debug",
+                                    "+",
+                                    "\"/\" + GlobalVariableString(Data.RequiredInvent[3])"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangeSprite"
+                                  },
+                                  "parameters": [
+                                    "InventIcon",
+                                    "+",
+                                    "8"
                                   ]
                                 }
                               ]
@@ -12309,6 +13331,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -12318,7 +13341,7 @@
                   },
                   "parameters": [
                     "",
-                    "lerp(CameraZoom(),6,0.2)",
+                    "lerp(CameraZoom(),7,0.2)",
                     "",
                     ""
                   ]
@@ -12347,6 +13370,46 @@
                     "Player.X()",
                     "=",
                     "Player.Y() - 24"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Tile",
+                        "Player.X()",
+                        "Player.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "Tile",
+                        "<",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ZoomCamera"
+                      },
+                      "parameters": [
+                        "",
+                        "lerp(CameraZoom(),5,0.1)",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -12418,6 +13481,223 @@
               ],
               "events": [
                 {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Debug",
+                        "=",
+                        "\"(\" + ToString(mod(round(Player.X()/16),Variable(SIZE)) ) + \",\" + ToString(mod(round(Player.Y()/16),Variable(SIZE)) )  + \")\" + NewLine() + \"Checklist :\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "InventIcon",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Data.RequiredInvent[0]",
+                            "!=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[0])) "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "\"/\" + GlobalVariableString(Data.RequiredInvent[0])"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "InventIcon",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Data.RequiredInvent[1]",
+                            "!=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[1])) "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "\"/\" + GlobalVariableString(Data.RequiredInvent[1])"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "InventIcon",
+                            "+",
+                            "2"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Data.RequiredInvent[2]",
+                            "!=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[2])) "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "\"/\" + GlobalVariableString(Data.RequiredInvent[2])"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "InventIcon",
+                            "+",
+                            "4"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Data.RequiredInvent[3]",
+                            "!=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[3])) "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "\"/\" + GlobalVariableString(Data.RequiredInvent[3])"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "InventIcon",
+                            "+",
+                            "8"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
                   "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
@@ -12430,205 +13710,6 @@
                         "TopUI",
                         "+",
                         "36"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "folded": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "Debug",
-                        "=",
-                        "\"POS \" + ToString(mod(round(Player.X()/16),Variable(SIZE)) ) + \" \" + ToString(mod(round(Player.Y()/16),Variable(SIZE)) )  "
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "Debug",
-                            "+",
-                            "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[0])) "
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarGlobal"
-                              },
-                              "parameters": [
-                                "Data.RequiredInvent[0]",
-                                "!=",
-                                "0"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "TextObject::String"
-                              },
-                              "parameters": [
-                                "Debug",
-                                "+",
-                                "\"/\" + GlobalVariableString(Data.RequiredInvent[0])"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "Debug",
-                            "+",
-                            "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[1])) "
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarGlobal"
-                              },
-                              "parameters": [
-                                "Data.RequiredInvent[1]",
-                                "!=",
-                                "0"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "TextObject::String"
-                              },
-                              "parameters": [
-                                "Debug",
-                                "+",
-                                "\"/\" + GlobalVariableString(Data.RequiredInvent[1])"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "Debug",
-                            "+",
-                            "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[2])) "
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarGlobal"
-                              },
-                              "parameters": [
-                                "Data.RequiredInvent[2]",
-                                "!=",
-                                "0"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "TextObject::String"
-                              },
-                              "parameters": [
-                                "Debug",
-                                "+",
-                                "\"/\" + GlobalVariableString(Data.RequiredInvent[2])"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "Debug",
-                            "+",
-                            "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[3])) "
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarGlobal"
-                              },
-                              "parameters": [
-                                "Data.RequiredInvent[3]",
-                                "!=",
-                                "0"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "TextObject::String"
-                              },
-                              "parameters": [
-                                "Debug",
-                                "+",
-                                "\"/\" + GlobalVariableString(Data.RequiredInvent[3])"
-                              ]
-                            }
-                          ]
-                        }
                       ]
                     }
                   ]
@@ -12748,14 +13829,35 @@
                   "parameters": [
                     "Debug",
                     "=",
-                    "\"POS \" + ToString(mod(round(Player.X()/16),Variable(SIZE)) ) + \" \" + ToString(mod(round(Player.Y()/16),Variable(SIZE)) )  "
+                    "\"(\" + ToString(mod(round(Player.X()/16),Variable(SIZE)) ) + \",\" + ToString(mod(round(Player.Y()/16),Variable(SIZE)) )  + \")\" + NewLine() + \"Checklist :\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "InventIcon",
+                    "=",
+                    "0"
                   ]
                 }
               ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Data.RequiredInvent[0]",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -12766,41 +13868,43 @@
                         "+",
                         "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[0])) "
                       ]
-                    }
-                  ],
-                  "events": [
+                    },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarGlobal"
-                          },
-                          "parameters": [
-                            "Data.RequiredInvent[0]",
-                            "!=",
-                            "0"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "Debug",
-                            "+",
-                            "\"/\" + GlobalVariableString(Data.RequiredInvent[0])"
-                          ]
-                        }
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Debug",
+                        "+",
+                        "\"/\" + GlobalVariableString(Data.RequiredInvent[0])"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "InventIcon",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Data.RequiredInvent[1]",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -12811,41 +13915,43 @@
                         "+",
                         "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[1])) "
                       ]
-                    }
-                  ],
-                  "events": [
+                    },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarGlobal"
-                          },
-                          "parameters": [
-                            "Data.RequiredInvent[1]",
-                            "!=",
-                            "0"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "Debug",
-                            "+",
-                            "\"/\" + GlobalVariableString(Data.RequiredInvent[1])"
-                          ]
-                        }
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Debug",
+                        "+",
+                        "\"/\" + GlobalVariableString(Data.RequiredInvent[1])"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "InventIcon",
+                        "+",
+                        "2"
                       ]
                     }
                   ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Data.RequiredInvent[2]",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -12856,41 +13962,43 @@
                         "+",
                         "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[2])) "
                       ]
-                    }
-                  ],
-                  "events": [
+                    },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarGlobal"
-                          },
-                          "parameters": [
-                            "Data.RequiredInvent[2]",
-                            "!=",
-                            "0"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "Debug",
-                            "+",
-                            "\"/\" + GlobalVariableString(Data.RequiredInvent[2])"
-                          ]
-                        }
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Debug",
+                        "+",
+                        "\"/\" + GlobalVariableString(Data.RequiredInvent[2])"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "InventIcon",
+                        "+",
+                        "4"
                       ]
                     }
                   ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Data.RequiredInvent[3]",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -12901,34 +14009,25 @@
                         "+",
                         "NewLine() + \"   - \" + ToString(GlobalVariable(Data.Inventory[3])) "
                       ]
-                    }
-                  ],
-                  "events": [
+                    },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarGlobal"
-                          },
-                          "parameters": [
-                            "Data.RequiredInvent[3]",
-                            "!=",
-                            "0"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "Debug",
-                            "+",
-                            "\"/\" + GlobalVariableString(Data.RequiredInvent[3])"
-                          ]
-                        }
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Debug",
+                        "+",
+                        "\"/\" + GlobalVariableString(Data.RequiredInvent[3])"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "InventIcon",
+                        "+",
+                        "8"
                       ]
                     }
                   ]
@@ -13246,6 +14345,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13371,7 +14471,7 @@
                   "parameters": [
                     "Day",
                     "=",
-                    "\"DAY \" + GlobalVariableString(Data.Day)+ \" \" + NewLine()"
+                    "\"DAY \" + GlobalVariableString(Data.Day)+ \"\" + NewLine()"
                   ]
                 },
                 {
@@ -13391,7 +14491,42 @@
                   "parameters": [
                     "Clock",
                     "=",
-                    "Variable(TIME)* (360/3)"
+                    "Variable(TIME)* (360/3) * 16"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Forward",
+                    "\"255;255;255\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsPressed"
+                  },
+                  "parameters": [
+                    "Forward",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Forward",
+                    "\"168;168;168\""
                   ]
                 }
               ]
@@ -13418,7 +14553,7 @@
                   "parameters": [
                     "",
                     "\"Lighting\"",
-                    "ColorConversion::RgbMean(\"42;47;78\", \"249;230;207\", mod(Variable(TIME),1))"
+                    "ColorConversion::RgbMean(\"134;134;134\", \"249;230;207\", mod(Variable(TIME),1))"
                   ]
                 }
               ]
@@ -13455,7 +14590,7 @@
                   "parameters": [
                     "",
                     "\"Lighting\"",
-                    "ColorConversion::RgbMean(\"249;230;207\", \"198;69;36\", mod(Variable(TIME),1))"
+                    "ColorConversion::RgbMean(\"249;230;207\", \"197;149;90\", mod(Variable(TIME),1))"
                   ]
                 }
               ]
@@ -13492,7 +14627,7 @@
                   "parameters": [
                     "",
                     "\"Lighting\"",
-                    "ColorConversion::RgbMean(\"198;69;36\", \"42;47;78\", mod(Variable(TIME),1))"
+                    "ColorConversion::RgbMean(\"197;149;90\", \"59;59;59\", mod(Variable(TIME),1))"
                   ]
                 }
               ]
@@ -13591,6 +14726,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13791,6 +14927,16 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
+                        "Data.Score",
+                        "+",
+                        "100 * GlobalVariable(Data.Day)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
                         "Data.Day",
                         "+",
                         "1"
@@ -13830,6 +14976,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -14049,6 +15196,46 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Inventory[0]",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Inventory[1]",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Inventory[2]",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Data.Inventory[3]",
+                        "=",
+                        "0"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ModVarGlobal"
@@ -15379,6 +16566,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Power Tools",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15486,6 +16674,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -15559,6 +16748,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -15589,16 +16779,6 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "CollisionPoint"
-                          },
-                          "parameters": [
-                            "Tile",
-                            "Player.X()",
-                            "Player.Y()"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "Sprite"
                           },
                           "parameters": [
@@ -15614,7 +16794,7 @@
                           "parameters": [
                             "Tile",
                             "Player",
-                            "48",
+                            "16",
                             ""
                           ]
                         },
@@ -15679,6 +16859,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -15985,7 +17166,7 @@
                                   "parameters": [
                                     "Random(10)",
                                     "<",
-                                    "3"
+                                    "2"
                                   ]
                                 }
                               ],
@@ -16123,6 +17304,18 @@
                             "",
                             "\"Action\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "AAA",
+                            "",
+                            "25",
+                            ""
+                          ]
                         }
                       ],
                       "events": [
@@ -16140,6 +17333,16 @@
                                 "64",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "Opacity"
+                              },
+                              "parameters": [
+                                "Prop",
+                                ">",
+                                "80"
+                              ]
                             }
                           ],
                           "actions": [
@@ -16151,6 +17354,28 @@
                                 "Prop",
                                 "=",
                                 "80"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Hits",
+                                "Prop.X()",
+                                "Prop.Y()",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetAngle"
+                              },
+                              "parameters": [
+                                "Hits",
+                                "=",
+                                "270"
                               ]
                             }
                           ]
@@ -16310,6 +17535,75 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "UI Optimizers",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "RepeatEveryXSeconds::Repeat"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Text\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "Text_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Bits",
+                    "",
+                    "10",
+                    "RandomFloatInRange(0.6,1.3)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Debug",
+                "+",
+                "NewLine() + NewLine() + \"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFPS: \" + ToString(round(FPS::FPS()))"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -16493,8 +17787,8 @@
           "name": "Gameover",
           "persistentUuid": "54045c43-4118-47ec-9238-a70d40bf486e",
           "width": 0,
-          "x": 135,
-          "y": 164,
+          "x": 142,
+          "y": 100,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -16508,8 +17802,8 @@
           "name": "Info",
           "persistentUuid": "f4856c70-8b2a-485f-a84f-9fe855f8b08d",
           "width": 0,
-          "x": 97,
-          "y": 512,
+          "x": 60,
+          "y": 416,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -16631,7 +17925,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "- You died! -\n\n< Try Again! >\n\nScore :\n000",
+          "string": "- You failed to \nsurvive the\nnight! -\n\n< Try Again! >\n\nScore :\n000",
           "font": "Assets\\Gamer.ttf",
           "textAlignment": "center",
           "characterSize": 96,
@@ -16760,7 +18054,7 @@
               "parameters": [
                 "Info",
                 "=",
-                "\"- You died! -\n\n< Try Again! >\n\nScore :\n\" + GlobalVariableString(Data.Score)"
+                "\"- You failed to \nsurvive the\nnight! -\n\n< Try Again! >\n\nScore :\n\" + GlobalVariableString(Data.Score)"
               ]
             },
             {
@@ -16796,6 +18090,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -16920,6 +18215,448 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "Ahnaf30e",
+      "category": "Advanced",
+      "extensionNamespace": "",
+      "fullName": "Frames per second (FPS)",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBkPSJNMzAsM2gtMkg0SDJDMS40LDMsMSwzLjQsMSw0czAuNCwxLDEsMWgxdjE2YzAsMC42LDAuNCwxLDEsMWg5LjhsLTUuNSw2LjNjLTAuNCwwLjQtMC4zLDEsMC4xLDEuNEM4LjUsMjkuOSw4LjgsMzAsOSwzMA0KCWMwLjMsMCwwLjYtMC4xLDAuOC0wLjNsNS4yLTZWMjhjMCwwLjYsMC40LDEsMSwxczEtMC40LDEtMXYtNC4zbDUuMiw2YzAuMiwwLjIsMC41LDAuMywwLjgsMC4zYzAuMiwwLDAuNS0wLjEsMC43LTAuMg0KCWMwLjQtMC40LDAuNS0xLDAuMS0xLjRMMTguMiwyMkgyOGMwLjYsMCwxLTAuNCwxLTFWNWgxYzAuNiwwLDEtMC40LDEtMVMzMC42LDMsMzAsM3ogTTI0LjgsOC42bC00LDZjLTAuMywwLjQtMC44LDAuNi0xLjMsMC4zDQoJTDE1LjgsMTNoLTMuNGwtMy43LDMuN0M4LjUsMTYuOSw4LjMsMTcsOCwxN3MtMC41LTAuMS0wLjctMC4zYy0wLjQtMC40LTAuNC0xLDAtMS40bDQtNGMwLjItMC4yLDAuNC0wLjMsMC43LTAuM2g0DQoJYzAuMiwwLDAuMywwLDAuNCwwLjFsMy4yLDEuNmwzLjUtNS4zYzAuMy0wLjUsMC45LTAuNiwxLjQtMC4zQzI1LDcuNSwyNS4xLDguMSwyNC44LDguNnoiLz4NCjwvc3ZnPg0K",
+      "name": "FPS",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/SEO/SEO_board_performance_profit.svg",
+      "shortDescription": "Calculate and display the frames per second (FPS) of the game.",
+      "version": "1.1.0",
+      "description": [
+        "Provides an expression to get the current FPS and a text object behavior to display the current FPS.",
+        "",
+        "Frames Per Second (FPS) describes how many times in the last second your game logic was executed. ",
+        "This includes running behaviors and events, and then rendering the new game state into the game window. The higher the FPS, the more fluid and performant your game looks.",
+        "",
+        "Note: Use the Performance Profiler (inside in the Debugger) for detailed performance information about your game."
+      ],
+      "origin": {
+        "identifier": "FPS",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "fps",
+        "frames",
+        "per",
+        "second",
+        "performance",
+        "speed"
+      ],
+      "authorIds": [
+        "onPsboRtDkUHNOsx7OPr8R8G1oj2",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onSceneLoaded",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "__FPS.FrameTimestamps",
+                    "Time(\"timestamp\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onScenePostEvents",
+          "sentence": "",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Keep timestamps for every frame inside the lookback period",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Record how much time has elapsed"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__FPS.TimeElapsed",
+                        "=",
+                        "Time(\"timestamp\") - Variable(__FPS.FrameTimestamps[0])"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Remove any data before the last second from the beginning of the array"
+                },
+                {
+                  "infiniteLoopWarning": true,
+                  "type": "BuiltinCommonInstructions::While",
+                  "whileConditions": [
+                    {
+                      "type": {
+                        "value": "SceneVariableChildCount"
+                      },
+                      "parameters": [
+                        "__FPS.FrameTimestamps",
+                        ">",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "__FPS.FrameTimestamps[0]",
+                        "<",
+                        "Time(\"timestamp\") - 1000"
+                      ]
+                    }
+                  ],
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SceneVariableRemoveAt"
+                      },
+                      "parameters": [
+                        "__FPS.FrameTimestamps",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Add the current timestamp to the end of the array"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SceneVariablePushNumber"
+                      },
+                      "parameters": [
+                        "__FPS.FrameTimestamps",
+                        "Time(\"timestamp\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Frames per second (FPS) during the last second.",
+          "fullName": "Frames Per Second (FPS)",
+          "functionType": "Expression",
+          "name": "FPS",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "VariableChildCount(__FPS.FrameTimestamps) / (Variable(__FPS.TimeElapsed) / 1000)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Frames per second (FPS) during the last second. [Deprecated]",
+          "fullName": "Frames Per Second (FPS) [Deprecated]",
+          "functionType": "Expression",
+          "name": "PreciseFPS",
+          "private": true,
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "FPS::FPS()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "The accuracy of the FPS",
+              "longDescription": "This tells how many numbers after the period should be shown.",
+              "name": "accuracy",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Makes a text object display the current FPS.",
+          "fullName": "FPS Displayer",
+          "name": "FPSDisplayer",
+          "objectType": "TextObject::Text",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Generate the raw FPS text"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "__FPS.UnformattedFPS",
+                        "=",
+                        "ToString(roundTo(FPS::FPS(), Object.Behavior::PropertyDecimalDigits()))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Add trailing zeroes, if needed"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyDecimalDigits()",
+                        ">",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "StrFind(VariableString(__FPS.UnformattedFPS),\".\")",
+                        "=",
+                        "-1"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "__FPS.UnformattedFPS",
+                            "+",
+                            "\".\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "Object.Behavior::PropertyDecimalDigits()",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "__FPS.UnformattedFPS",
+                            "+",
+                            "\"0\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Show the formatted FPS text including the prefix"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::Propertyprefix() + VariableString(__FPS.UnformattedFPS)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TextObject::Text",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FPS::FPSDisplayer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "FPS: ",
+              "type": "String",
+              "label": "The prefix before the FPS count",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "prefix"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Dimensionless",
+              "label": "Number of decimal digits to display",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "DecimalDigits"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "",
       "category": "Input",
