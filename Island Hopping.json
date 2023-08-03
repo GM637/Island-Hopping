@@ -1274,6 +1274,15 @@
         "name": "Forward2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Forward3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Forward3.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1534,7 +1543,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.6481481481481483,
+        "zoomFactor": 0.08292485373769844,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2604,7 +2613,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.7400933720414802,
+        "zoomFactor": 0.23183526562096904,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3505,7 +3514,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.3,
         "snap": true,
-        "zoomFactor": 1.3389693172845534,
+        "zoomFactor": 0.43357743047024444,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3668,13 +3677,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 32,
-          "height": 144,
+          "height": 228,
           "layer": "UI",
           "name": "Joystick",
           "persistentUuid": "e95fb5b5-a36b-4a88-824f-adb3ca128f20",
-          "width": 144,
-          "x": 104,
-          "y": 568,
+          "width": 228,
+          "x": 165,
+          "y": 821,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -3684,13 +3693,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 112,
+          "height": 177,
           "layer": "UI",
           "name": "RollButton",
           "persistentUuid": "a43c9c01-bf64-48dd-8ec8-952996b904d9",
-          "width": 112,
-          "x": 272,
-          "y": 464,
+          "width": 177,
+          "x": 431,
+          "y": 656,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3700,29 +3709,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 32,
-          "height": 32,
-          "layer": "UI",
-          "name": "Energy",
-          "persistentUuid": "89565dba-8220-4e8e-84e7-5a4be8dd1ca8",
-          "width": 224,
-          "x": -32,
-          "y": -96,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 32,
-          "height": 32,
+          "height": 44,
           "layer": "UI",
           "name": "Thirst",
           "persistentUuid": "3aee4b1c-ff99-4259-99d8-4f1e5d23afc7",
-          "width": 144,
-          "x": -16,
-          "y": 16,
+          "width": 176,
+          "x": -6,
+          "y": 32,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -3732,13 +3725,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 32,
-          "height": 32,
+          "height": 44,
           "layer": "UI",
           "name": "Hunger",
           "persistentUuid": "d6f30a48-5c29-46c8-8eb0-a3c393b63513",
-          "width": 128,
-          "x": -16,
-          "y": 42,
+          "width": 156,
+          "x": -6,
+          "y": 71,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3752,8 +3745,8 @@
           "name": "UIText2",
           "persistentUuid": "3972c8b3-c22d-4a5c-8fe6-16bf322831d6",
           "width": 0,
-          "x": 4,
-          "y": 17,
+          "x": 10,
+          "y": 32,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -3767,24 +3760,9 @@
           "name": "UIText3",
           "persistentUuid": "2119bd38-c323-441f-923d-7a1ef4169dd6",
           "width": 0,
-          "x": 22,
-          "y": 43,
+          "x": 25,
+          "y": 70,
           "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "UI",
-          "name": "UIText",
-          "persistentUuid": "a8422121-30cb-44ae-bf09-d912acd703ce",
-          "width": 0,
-          "x": -2,
-          "y": -95,
-          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3798,7 +3776,7 @@
           "persistentUuid": "97e883a7-0bff-4326-b0da-b8a49d618ce8",
           "width": 0,
           "x": 18,
-          "y": 80,
+          "y": 140,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -3823,15 +3801,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 1800,
+          "height": 2400,
           "layer": "UI",
           "locked": true,
           "name": "Fog",
           "persistentUuid": "dacb6c38-0c7a-4c60-865b-d6c95f99082b",
           "sealed": true,
-          "width": 1800,
-          "x": 212,
-          "y": 364,
+          "width": 2400,
+          "x": 332,
+          "y": 553,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3860,8 +3838,8 @@
           "name": "Day",
           "persistentUuid": "e2816354-b0b2-4015-b32d-c5ca98aa18bf",
           "width": 0,
-          "x": 168,
-          "y": 16,
+          "x": 244,
+          "y": 28,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3871,15 +3849,20 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 106,
+          "height": 138,
           "layer": "UI",
           "name": "InventIcon",
           "persistentUuid": "a9430b03-10f5-4c0e-8cc5-32168605c755",
-          "width": 30,
+          "width": 39,
           "x": 16,
-          "y": 134,
+          "y": 206,
           "zOrder": 10,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -3887,12 +3870,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 48,
+          "height": 96,
           "layer": "UI",
           "name": "Clock",
           "persistentUuid": "1678de4f-638b-4851-bc4a-701fce29cd0e",
-          "width": 48,
-          "x": 336,
+          "width": 96,
+          "x": 512,
           "y": 16,
           "zOrder": 9,
           "numberProperties": [],
@@ -3903,13 +3886,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 48,
+          "height": 96,
           "layer": "UI",
           "name": "Forward",
           "persistentUuid": "43f204ec-0a2d-4d58-8d14-72ce48523572",
-          "width": 48,
-          "x": 320,
-          "y": 32,
+          "width": 96,
+          "x": 464,
+          "y": 48,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3934,12 +3917,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 160,
+          "height": 256,
           "layer": "UI",
           "name": "Sundial",
           "persistentUuid": "0c9ca93e-8e44-4c55-8349-527915035115",
-          "width": 160,
-          "x": 224,
+          "width": 256,
+          "x": 320,
           "y": 0,
           "zOrder": 4,
           "numberProperties": [],
@@ -3948,14 +3931,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 127,
           "layer": "UI",
           "name": "ActionButton",
           "persistentUuid": "3b040c65-dadf-4172-aee2-384743a43c37",
-          "width": 0,
-          "x": 280,
-          "y": 616,
+          "width": 127,
+          "x": 444,
+          "y": 897,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3972,6 +3956,21 @@
           "x": -83,
           "y": 303,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Energy",
+          "persistentUuid": "d267c0c1-f3cc-4c5f-84a9-da7de4d1564c",
+          "width": 0,
+          "x": -192,
+          "y": -64,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6984,7 +6983,7 @@
           "string": "(99,99)\nChecklist :\n   - 999/999\n   - 999/999\n   - 999/999\n   - 999/999",
           "font": "Assets\\Gamer.ttf",
           "textAlignment": "left",
-          "characterSize": 36,
+          "characterSize": 48,
           "color": {
             "b": 255,
             "g": 255,
@@ -7099,7 +7098,7 @@
           "string": "DAY 12\n12 PM",
           "font": "Assets\\Gamer.ttf",
           "textAlignment": "center",
-          "characterSize": 56,
+          "characterSize": 72,
           "color": {
             "b": 255,
             "g": 255,
@@ -7543,7 +7542,7 @@
           "string": "Thirst",
           "font": "Assets\\Gamer.ttf",
           "textAlignment": "left",
-          "characterSize": 36,
+          "characterSize": 48,
           "color": {
             "b": 255,
             "g": 255,
@@ -7573,7 +7572,7 @@
           "string": "Hunger",
           "font": "Assets\\Gamer.ttf",
           "textAlignment": "left",
-          "characterSize": 36,
+          "characterSize": 48,
           "color": {
             "b": 255,
             "g": 255,
@@ -7605,14 +7604,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 640,
-                        "y": 640
+                        "x": 381.5,
+                        "y": 375
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 640,
-                        "y": 640
+                        "x": 383,
+                        "y": 373.5
                       },
                       "customCollisionMask": [
                         [
@@ -8240,6 +8239,54 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\List\\Assets_Inventory16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 63
+                          },
+                          {
+                            "x": 1,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -8313,20 +8360,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [
-            {
-              "effectType": "Outline",
-              "name": "Effect",
-              "doubleParameters": {
-                "padding": 3,
-                "thickness": 3
-              },
-              "stringParameters": {
-                "color": "0;0;0"
-              },
-              "booleanParameters": {}
-            }
-          ],
+          "effects": [],
           "behaviors": [
             {
               "name": "ButtonFSM",
@@ -8354,7 +8388,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Forward2",
+                      "image": "Assets\\Forward3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9364,7 +9398,7 @@
                   "parameters": [
                     "TerrainRenDist",
                     "=",
-                    "8"
+                    "5"
                   ]
                 },
                 {
@@ -13415,7 +13449,7 @@
               ]
             },
             {
-              "folded": true,
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13441,18 +13475,6 @@
                 },
                 {
                   "type": {
-                    "value": "SetCameraCenterX"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "640/1.5/2",
-                    "\"UI\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetCameraCenterY"
                   },
                   "parameters": [
@@ -13463,6 +13485,33 @@
                     ""
                   ]
                 },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "640/1.5/2",
+                    "\"UI\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
@@ -13757,7 +13806,7 @@
                   "parameters": [
                     "Fog",
                     "=",
-                    "125"
+                    "255"
                   ]
                 },
                 {
@@ -17601,6 +17650,49 @@
                 "Debug",
                 "+",
                 "NewLine() + NewLine() + \"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFPS: \" + ToString(round(FPS::FPS()))"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SystemInfo::IsPreview"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Num6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Biome",
+                    "=",
+                    "3"
+                  ]
+                }
               ]
             }
           ]
